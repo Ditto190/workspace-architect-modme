@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-05-27T00:59:15.055Z",
+      "lastSync": "2026-05-29T03:15:53.664Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -156,6 +156,7 @@
         "powershell.instructions.md",
         "prompt.instructions.md",
         "python-mcp-server.instructions.md",
+        "qa-engineering-best-practices.instructions.md",
         "quarkus-mcp-server-sse.instructions.md",
         "quarkus.instructions.md",
         "r.instructions.md",
