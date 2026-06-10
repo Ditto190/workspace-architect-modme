@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-05-29T03:15:53.664Z",
+      "lastSync": "2026-06-10T05:38:18.151Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -91,6 +91,7 @@
         "java-11-to-java-17-upgrade.instructions.md",
         "java-17-to-java-21-upgrade.instructions.md",
         "java-21-to-java-25-upgrade.instructions.md",
+        "java-junit5-assertions.instructions.md",
         "java-mcp-server.instructions.md",
         "joyride-user-project.instructions.md",
         "joyride-workspace-automation.instructions.md",
@@ -164,6 +165,7 @@
         "ruby-on-rails.instructions.md",
         "rust-mcp-server.instructions.md",
         "rust.instructions.md",
+        "scala-spark.instructions.md",
         "scala2.instructions.md",
         "security-and-owasp.instructions.md",
         "self-explanatory-code-commenting.instructions.md",
