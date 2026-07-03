@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-06-22T03:17:59.570Z",
+      "lastSync": "2026-07-03T00:47:23.687Z",
       "files": [
         "CSharpExpert.agent.md",
         "Thinking-Beast-Mode.agent.md",
@@ -160,6 +160,7 @@
         "prompt-engineer.agent.md",
         "python-mcp-expert.agent.md",
         "python-notebook-sample-builder.agent.md",
+        "python-win-arm64-gha-wheel-builder.agent.md",
         "qa-subagent.agent.md",
         "quality-playbook.agent.md",
         "react18-auditor.agent.md",
