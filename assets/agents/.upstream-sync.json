@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-07-20T15:39:08.150Z",
+      "lastSync": "2026-07-27T05:21:02.713Z",
       "files": [
         "CSharpExpert.agent.md",
         "Thinking-Beast-Mode.agent.md",
@@ -103,6 +103,7 @@
         "gilfoyle.agent.md",
         "github-actions-expert.agent.md",
         "github-actions-node-upgrade.agent.md",
+        "gitmoji-setup.agent.md",
         "go-mcp-expert.agent.md",
         "hlbpa.agent.md",
         "implementation-plan.agent.md",
