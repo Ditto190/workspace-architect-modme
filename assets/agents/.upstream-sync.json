@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-07-30T01:37:15.730Z",
+      "lastSync": "2026-08-05T07:00:26.408Z",
       "files": [
         "CSharpExpert.agent.md",
         "Thinking-Beast-Mode.agent.md",
@@ -48,6 +48,7 @@
         "caveman-mode.agent.md",
         "centos-linux-expert.agent.md",
         "clojure-interactive-programming.agent.md",
+        "cloud-saas-outage-triage.agent.md",
         "code-tour.agent.md",
         "comet-opik.agent.md",
         "context-architect.agent.md",
