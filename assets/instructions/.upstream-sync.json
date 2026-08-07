@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-07-23T18:32:25.589Z",
+      "lastSync": "2026-08-07T00:47:59.083Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -109,6 +109,7 @@
         "markdown.instructions.md",
         "mcp-m365-copilot.instructions.md",
         "memory-bank.instructions.md",
+        "microsoft-foundry.instructions.md",
         "mongo-dba.instructions.md",
         "moodle.instructions.md",
         "ms-sql-dba.instructions.md",
