@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-08-10T02:51:15.924Z",
+      "lastSync": "2026-08-12T00:28:33.444Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -156,7 +156,7 @@
         "power-bi-security-rls-best-practices.instructions.md",
         "power-platform-connector.instructions.md",
         "power-platform-mcp-development.instructions.md",
-        "powershell-pester-5.instructions.md",
+        "powershell-pester-6.instructions.md",
         "powershell.instructions.md",
         "prompt.instructions.md",
         "python-mcp-server.instructions.md",
