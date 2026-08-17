@@ -2,13 +2,14 @@
   "sources": [
     {
       "source": "anthropics/skills/skills",
-      "lastSync": "2026-08-17T13:20:04.032Z",
+      "lastSync": "2026-08-17T18:13:09.919Z",
       "files": [
         "algorithmic-art",
         "brand-guidelines",
         "canvas-design",
         "claude-academy-guide",
         "claude-api",
+        "discernment-nudge",
         "doc-coauthoring",
         "docx",
         "frontend-design",
