@@ -2,8 +2,9 @@
   "sources": [
     {
       "source": "anthropics/skills/skills",
-      "lastSync": "2026-08-17T18:13:09.919Z",
+      "lastSync": "2026-08-18T16:11:17.646Z",
       "files": [
+        "academy-guide",
         "algorithmic-art",
         "brand-guidelines",
         "canvas-design",
