@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/agents",
-      "lastSync": "2026-08-17T06:15:30.954Z",
+      "lastSync": "2026-08-31T03:18:40.765Z",
       "files": [
         "CSharpExpert.agent.md",
         "Thinking-Beast-Mode.agent.md",
@@ -176,6 +176,7 @@
         "reepl-linkedin.agent.md",
         "refine-issue.agent.md",
         "repo-architect.agent.md",
+        "research-harness-engineer.agent.md",
         "research-technical-spike.agent.md",
         "ruby-mcp-expert.agent.md",
         "rug-orchestrator.agent.md",
