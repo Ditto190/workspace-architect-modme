@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-08-12T00:28:33.444Z",
+      "lastSync": "2026-09-03T04:30:22.317Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -71,6 +71,7 @@
         "debian-linux.instructions.md",
         "declarative-agents-microsoft365.instructions.md",
         "devbox-image-definition.instructions.md",
+        "devcontainers.instructions.md",
         "devops-core-principles.instructions.md",
         "dotnet-architecture-good-practices.instructions.md",
         "dotnet-framework.instructions.md",
