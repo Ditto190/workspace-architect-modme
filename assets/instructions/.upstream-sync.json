@@ -2,7 +2,7 @@
   "sources": [
     {
       "source": "github/awesome-copilot/instructions",
-      "lastSync": "2026-09-03T04:30:22.317Z",
+      "lastSync": "2026-09-17T02:20:32.423Z",
       "files": [
         "a11y.instructions.md",
         "agent-safety.instructions.md",
@@ -91,6 +91,7 @@
         "hooks.instructions.md",
         "html-css-style-color-guide.instructions.md",
         "instructions.instructions.md",
+        "intellij-java-kotlin.instructions.md",
         "java-11-to-java-17-upgrade.instructions.md",
         "java-17-to-java-21-upgrade.instructions.md",
         "java-21-to-java-25-upgrade.instructions.md",
