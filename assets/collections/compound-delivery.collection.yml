@@ -1,0 +1,52 @@
+id: compound-delivery
+name: Compound Delivery
+description: Agents that turn a solved problem, a spec, or a multi-part job into separate work, agent-ready CLIs, and Clerk setup.
+tags: [delivery, orchestration, spec, cli, clerk, prs]
+
+items:
+  - path: agents/ce-compound.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Orchestrate one reusable note for a problem that was just solved.
+
+  - path: agents/orchestrate-problem-prs.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Split a report into one draft PR per problem. Do not merge them.
+
+  - path: agents/spec-to-implementation.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Turn a spec into ordered tasks and implement only those requirements.
+
+  - path: agents/orchestrate.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Assign each decision to one agent. Reject overlap.
+
+  - path: agents/cli-for-agents.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Make commands flag-driven, with per-command help and safe repeats.
+
+  - path: agents/clerk-setup.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Follow the framework quickstart. Document env var names only.
+      Never print secrets.
+
+display:
+  ordering: manual
+  show_badge: true

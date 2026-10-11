@@ -1,0 +1,52 @@
+id: coding-standards
+name: Coding Standards
+description: Agents and instructions for strategy interviews, git init when a repo is missing, Cursor rules, code review reports, and Clerk auth standards.
+tags: [standards, review, clerk, git, cursor-rules, strategy]
+
+items:
+  - path: instructions/coding-standards.instructions.md
+    kind: instruction
+    usage: |
+      recommended
+
+      Apply when editing code, docs, or Cursor rules in the matched files.
+
+  - path: agents/ce-strategy.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Ask the user one section at a time. Do not invent STRATEGY.md.
+
+  - path: agents/speckit-git-initialize.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Run the repo init script when it exists. Otherwise git init only
+      when the directory is not already a repository. Never re-init.
+
+  - path: agents/create-rule.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Add one short .mdc rule under .cursor/rules for a single concern.
+
+  - path: agents/ce-code-review.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Report findings on the diff. Do not auto-merge.
+
+  - path: agents/clerk-auth-standards.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Document Clerk env var names only. Never print secrets.
+
+display:
+  ordering: manual
+  show_badge: true

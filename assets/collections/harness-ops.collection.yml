@@ -1,0 +1,67 @@
+id: harness-ops
+name: Harness Ops
+description: Agents and instructions for PenguinHarness changes, stacked PR landing, simplifications, prose, note archival, terse replies, and control-repo dispatch.
+tags: [harness, stacks, prose, archive, ops, penguin]
+
+items:
+  - path: agents/penguin-harness-dev.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Edit PenguinHarness packages with the matching test and changelog facts.
+
+  - path: agents/dsh-merging-stacked-prs.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Land a same-repo stack with the native stack merge.
+
+  - path: agents/dsh-find-simplifications.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Propose a few cuts that have no remaining consumer.
+
+  - path: agents/dsh-prose-standard.agent.md
+    kind: agent
+    usage: |
+      recommended
+
+      Concrete words. One fact per home. No transcript narration.
+
+  - path: agents/dsh-archive-agent-notes.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Archive only when a note will not guide future work.
+      Never archive toward a quota. Never edit sealed archive bodies.
+
+  - path: agents/caveman-mode.agent.md
+    kind: agent
+    usage: |
+      optional
+
+      Terse replies when the user wants fewer words. Do not rewrite this agent
+      to add tools or a model.
+
+  - path: instructions/central-repo-ops.instructions.md
+    kind: instruction
+    usage: |
+      recommended
+
+      The control repo dispatches workers. Workers open PRs. Do not push main.
+
+  - path: instructions/prose-and-domains.instructions.md
+    kind: instruction
+    usage: |
+      recommended
+
+      One fact per home. One owner per decision.
+
+display:
+  ordering: manual
+  show_badge: true
