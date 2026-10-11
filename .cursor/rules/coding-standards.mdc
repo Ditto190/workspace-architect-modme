@@ -1,0 +1,21 @@
+---
+description: Review reports and Clerk publishable-key env name for matched files.
+globs: "**/*.{ts,tsx,js,md,mdc}"
+alwaysApply: false
+---
+
+# Coding standards
+
+Use the ce-code-review agent on a diff. Report findings. Do not auto-merge.
+
+Clerk client code reads the publishable key from `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`. Document that env var name only. Never print secrets.
+
+```ts
+// bad
+const publishableKey = "paste-key-here";
+
+// good
+const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+```
+
+Keep each rule to one concern.

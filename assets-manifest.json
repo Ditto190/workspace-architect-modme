@@ -1,14 +1,8 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-15T21:41:54.454Z",
+  "generatedAt": "2026-10-11T08:46:02.431Z",
   "assets": {
     "agents": {
-      "4.1-Beast": {
-        "path": "assets/agents/4.1-Beast.agent.md",
-        "description": "GPT 4.1 as a top-notch coding agent.",
-        "title": "4.1-Beast",
-        "type": "agents"
-      },
       "CSharpExpert": {
         "path": "assets/agents/CSharpExpert.agent.md",
         "description": "An agent designed to assist with software development tasks for .NET projects.",
@@ -31,6 +25,12 @@
         "path": "assets/agents/WinFormsExpert.agent.md",
         "description": "Support development of .NET (OOP) WinForms Designer compatible Apps.",
         "title": "WinFormsExpert",
+        "type": "agents"
+      },
+      "accessibility-runtime-tester": {
+        "path": "assets/agents/accessibility-runtime-tester.agent.md",
+        "description": "Runtime accessibility specialist for keyboard flows, focus management, dialog behavior, form errors, and evidence-backed WCAG validation in the browser.",
+        "title": "accessibility-runtime-tester",
         "type": "agents"
       },
       "accessibility": {
@@ -57,6 +57,36 @@
         "title": "aem-frontend-specialist",
         "type": "agents"
       },
+      "agent-governance-reviewer": {
+        "path": "assets/agents/agent-governance-reviewer.agent.md",
+        "description": "AI agent governance expert that reviews code for safety issues, missing governance controls, and helps implement policy enforcement, trust scoring, and audit trails in agent systems.",
+        "title": "agent-governance-reviewer",
+        "type": "agents"
+      },
+      "ai-readiness-reporter": {
+        "path": "assets/agents/ai-readiness-reporter.agent.md",
+        "description": "Runs the AgentRC readiness assessment on the current repository and produces a self-contained, static HTML dashboard at reports/index.html. Explains every readiness pillar, the maturity level, and an actionable remediation plan, framed by AgentRC measure → generate → maintain loop. Use when asked to assess, audit, score, report on, or visualise the AI readiness of a repo.",
+        "title": "ai-readiness-reporter",
+        "type": "agents"
+      },
+      "ai-team-dev": {
+        "path": "assets/agents/ai-team-dev.agent.md",
+        "description": "AI development team (Nova, Sage, Milo). Use when implementing features, fixing bugs, writing tests, improving user experience, or preparing a pull request across the project's actual stack.",
+        "title": "ai-team-dev",
+        "type": "agents"
+      },
+      "ai-team-producer": {
+        "path": "assets/agents/ai-team-producer.agent.md",
+        "description": "AI team producer (Remy). Use when planning work, clarifying scope, coordinating Dev and optional QA, triaging issues, maintaining project context, or preparing and merging pull requests. Never writes application code.",
+        "title": "ai-team-producer",
+        "type": "agents"
+      },
+      "ai-team-qa": {
+        "path": "assets/agents/ai-team-qa.agent.md",
+        "description": "Optional AI QA engineer (Ivy). Use when testing behavior, running automated or exploratory checks, filing reproducible bugs, verifying fixes, or providing release confidence for changes that warrant dedicated QA.",
+        "title": "ai-team-qa",
+        "type": "agents"
+      },
       "amplitude-experiment-implementation": {
         "path": "assets/agents/amplitude-experiment-implementation.agent.md",
         "description": "This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.",
@@ -73,6 +103,12 @@
         "path": "assets/agents/apify-integration-expert.agent.md",
         "description": "Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment.",
         "title": "apify-integration-expert",
+        "type": "agents"
+      },
+      "arch-linux-expert": {
+        "path": "assets/agents/arch-linux-expert.agent.md",
+        "description": "Arch Linux specialist focused on pacman, rolling-release maintenance, and Arch-centric system administration workflows.",
+        "title": "arch-linux-expert",
         "type": "agents"
       },
       "arch": {
@@ -93,6 +129,30 @@
         "title": "atlassian-requirements-to-jira",
         "type": "agents"
       },
+      "aws-cloud-expert": {
+        "path": "assets/agents/aws-cloud-expert.agent.md",
+        "description": "AWS Cloud Expert provides deep, hands-on guidance for designing, building, and operating AWS workloads. Covers the full AWS ecosystem — serverless, containers, databases, networking, IaC, security, and cost optimization — grounded in the AWS Well-Architected Framework.",
+        "title": "aws-cloud-expert",
+        "type": "agents"
+      },
+      "aws-incident-triage": {
+        "path": "assets/agents/aws-incident-triage.agent.md",
+        "description": "On-call SRE agent that drives structured CloudWatch-based incident investigation from alarms through root-cause hypothesis.",
+        "title": "aws-incident-triage",
+        "type": "agents"
+      },
+      "aws-principal-architect": {
+        "path": "assets/agents/aws-principal-architect.agent.md",
+        "description": "Provide expert AWS Principal Architect guidance using AWS Well-Architected Framework principles and AWS best practices.",
+        "title": "aws-principal-architect",
+        "type": "agents"
+      },
+      "aws-serverless-architect": {
+        "path": "assets/agents/aws-serverless-architect.agent.md",
+        "description": "Provide expert AWS Serverless Architect guidance focusing on event-driven architectures, Lambda, API Gateway, and serverless best practices.",
+        "title": "aws-serverless-architect",
+        "type": "agents"
+      },
       "azure-iac-exporter": {
         "path": "assets/agents/azure-iac-exporter.agent.md",
         "description": "Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis, Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export, convert, migrate, or extract existing Azure resources to IaC templates (Bicep, ARM Templates, Terraform, Pulumi).",
@@ -111,6 +171,12 @@
         "title": "azure-logic-apps-expert",
         "type": "agents"
       },
+      "azure-policy-analyzer": {
+        "path": "assets/agents/azure-policy-analyzer.agent.md",
+        "description": "Analyze Azure Policy compliance posture (NIST SP 800-53, MCSB, CIS, ISO 27001, PCI DSS, SOC 2), auto-discover scope, and return a structured single-pass risk report with evidence and remediation commands.",
+        "title": "azure-policy-analyzer",
+        "type": "agents"
+      },
       "azure-principal-architect": {
         "path": "assets/agents/azure-principal-architect.agent.md",
         "description": "Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.",
@@ -123,10 +189,22 @@
         "title": "azure-saas-architect",
         "type": "agents"
       },
+      "azure-smart-city-iot-architect": {
+        "path": "assets/agents/azure-smart-city-iot-architect.agent.md",
+        "description": "Design Azure IoT and Smart City architectures with clear platform engineering reasoning, requiring mandatory review of Azure IoT Edge documentation before recommending edge solutions.",
+        "title": "azure-smart-city-iot-architect",
+        "type": "agents"
+      },
       "azure-verified-modules-bicep": {
         "path": "assets/agents/azure-verified-modules-bicep.agent.md",
         "description": "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
         "title": "azure-verified-modules-bicep",
+        "type": "agents"
+      },
+      "azure-verified-modules-owner-triage": {
+        "path": "assets/agents/azure-verified-modules-owner-triage.agent.md",
+        "description": "Triage open GitHub issues across the Azure Verified Modules (AVM) repos an owner maintains. Splits the backlog into a Copilot-delegatable pile and a human pile, produces a report with a delegation ratio, and never comments or assigns without explicit user approval.",
+        "title": "azure-verified-modules-owner-triage",
         "type": "agents"
       },
       "azure-verified-modules-terraform": {
@@ -147,22 +225,88 @@
         "title": "bicep-plan",
         "type": "agents"
       },
-      "blueprint-mode-codex": {
-        "path": "assets/agents/blueprint-mode-codex.agent.md",
-        "description": "Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
-        "title": "blueprint-mode-codex",
-        "type": "agents"
-      },
       "blueprint-mode": {
         "path": "assets/agents/blueprint-mode.agent.md",
         "description": "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
         "title": "blueprint-mode",
         "type": "agents"
       },
+      "cast-imaging-impact-analysis": {
+        "path": "assets/agents/cast-imaging-impact-analysis.agent.md",
+        "description": "Specialized agent for comprehensive change impact assessment and risk analysis in software systems using CAST Imaging",
+        "title": "cast-imaging-impact-analysis",
+        "type": "agents"
+      },
+      "cast-imaging-software-discovery": {
+        "path": "assets/agents/cast-imaging-software-discovery.agent.md",
+        "description": "Specialized agent for comprehensive software application discovery and architectural mapping through static code analysis using CAST Imaging",
+        "title": "cast-imaging-software-discovery",
+        "type": "agents"
+      },
+      "cast-imaging-structural-quality-advisor": {
+        "path": "assets/agents/cast-imaging-structural-quality-advisor.agent.md",
+        "description": "Specialized agent for identifying, analyzing, and providing remediation guidance for code quality issues using CAST Imaging",
+        "title": "cast-imaging-structural-quality-advisor",
+        "type": "agents"
+      },
+      "caveman-mode": {
+        "path": "assets/agents/caveman-mode.agent.md",
+        "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses.",
+        "title": "caveman-mode",
+        "type": "agents"
+      },
+      "ce-code-review": {
+        "path": "assets/agents/ce-code-review.agent.md",
+        "description": "Review a diff and report findings. Do not auto-merge.",
+        "title": "ce-code-review",
+        "type": "agents"
+      },
+      "ce-compound": {
+        "path": "assets/agents/ce-compound.agent.md",
+        "description": "Orchestrate a short record of a solved problem so the next run can reuse it.",
+        "title": "ce-compound",
+        "type": "agents"
+      },
+      "ce-strategy": {
+        "path": "assets/agents/ce-strategy.agent.md",
+        "description": "Interview the user for STRATEGY.md. Ask one section at a time. Do not invent the doc.",
+        "title": "ce-strategy",
+        "type": "agents"
+      },
+      "centos-linux-expert": {
+        "path": "assets/agents/centos-linux-expert.agent.md",
+        "description": "CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening.",
+        "title": "centos-linux-expert",
+        "type": "agents"
+      },
+      "clerk-auth-standards": {
+        "path": "assets/agents/clerk-auth-standards.agent.md",
+        "description": "Apply Clerk auth standards. Document env var names only. Never print secrets.",
+        "title": "clerk-auth-standards",
+        "type": "agents"
+      },
+      "clerk-setup": {
+        "path": "assets/agents/clerk-setup.agent.md",
+        "description": "Set up Clerk from the official quickstart. Document env var names only. Never print secrets.",
+        "title": "clerk-setup",
+        "type": "agents"
+      },
+      "cli-for-agents": {
+        "path": "assets/agents/cli-for-agents.agent.md",
+        "description": "Shape a CLI so an agent can run it without prompts, menus, or hidden state.",
+        "title": "cli-for-agents",
+        "type": "agents"
+      },
       "clojure-interactive-programming": {
         "path": "assets/agents/clojure-interactive-programming.agent.md",
         "description": "Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.",
         "title": "clojure-interactive-programming",
+        "type": "agents"
+      },
+      "cloud-saas-outage-triage": {
+        "path": "assets/agents/cloud-saas-outage-triage.agent.md",
+        "description": "Distinguish upstream cloud or SaaS incidents from application failures before changing code, using live official-feed status and incident timelines.",
+        "title": "cloud-saas-outage-triage",
         "type": "agents"
       },
       "code-tour": {
@@ -177,10 +321,22 @@
         "title": "comet-opik",
         "type": "agents"
       },
+      "context-architect": {
+        "path": "assets/agents/context-architect.agent.md",
+        "description": "An agent that helps plan and execute multi-file changes by identifying relevant context and dependencies",
+        "title": "context-architect",
+        "type": "agents"
+      },
       "context7": {
         "path": "assets/agents/context7.agent.md",
         "description": "Expert in latest library versions, best practices, and correct syntax using up-to-date documentation",
         "title": "context7",
+        "type": "agents"
+      },
+      "create-rule": {
+        "path": "assets/agents/create-rule.agent.md",
+        "description": "Add a focused Cursor rule under .cursor/rules as a short .mdc file.",
+        "title": "create-rule",
         "type": "agents"
       },
       "critical-thinking": {
@@ -207,6 +363,12 @@
         "title": "custom-agent-foundry",
         "type": "agents"
       },
+      "debian-linux-expert": {
+        "path": "assets/agents/debian-linux-expert.agent.md",
+        "description": "Debian Linux specialist focused on stable system administration, apt-based package management, and Debian policy-aligned practices.",
+        "title": "debian-linux-expert",
+        "type": "agents"
+      },
       "debug": {
         "path": "assets/agents/debug.agent.md",
         "description": "Debug your application to find and fix a bug",
@@ -217,6 +379,18 @@
         "path": "assets/agents/declarative-agents-architect.agent.md",
         "description": "",
         "title": "declarative-agents-architect",
+        "type": "agents"
+      },
+      "defender-scout-kql": {
+        "path": "assets/agents/defender-scout-kql.agent.md",
+        "description": "Generates, validates, and optimizes KQL queries for Microsoft Defender XDR Advanced Hunting across Endpoint, Identity, Office 365, Cloud Apps, and Identity.",
+        "title": "defender-scout-kql",
+        "type": "agents"
+      },
+      "delphi-expert": {
+        "path": "assets/agents/delphi-expert.agent.md",
+        "description": "An agent designed to assist with software development tasks for Delphi/Object Pascal projects.",
+        "title": "delphi-expert",
         "type": "agents"
       },
       "demonstrate-understanding": {
@@ -237,10 +411,22 @@
         "title": "devops-expert",
         "type": "agents"
       },
+      "devtools-regression-investigator": {
+        "path": "assets/agents/devtools-regression-investigator.agent.md",
+        "description": "Browser regression specialist for reproducing broken user flows, collecting console and network evidence, and narrowing likely root causes with Chrome DevTools MCP.",
+        "title": "devtools-regression-investigator",
+        "type": "agents"
+      },
       "diffblue-cover": {
         "path": "assets/agents/diffblue-cover.agent.md",
         "description": "Expert agent for creating unit tests for java applications using Diffblue Cover.",
         "title": "diffblue-cover",
+        "type": "agents"
+      },
+      "dotnet-fullstack-mentor": {
+        "path": "assets/agents/dotnet-fullstack-mentor.agent.md",
+        "description": "Opinionated mentor for .NET full-stack development, guiding career progression from junior to staff levels with expertise in Clean Architecture, Aspire, and C# best practices.",
+        "title": "dotnet-fullstack-mentor",
         "type": "agents"
       },
       "dotnet-maui": {
@@ -249,10 +435,22 @@
         "title": "dotnet-maui",
         "type": "agents"
       },
+      "dotnet-self-learning-architect": {
+        "path": "assets/agents/dotnet-self-learning-architect.agent.md",
+        "description": "Senior .NET architect for complex delivery: designs .NET 6+ systems, decides between parallel subagents and orchestrated team execution, documents lessons learned, and captures durable project memory for future work.",
+        "title": "dotnet-self-learning-architect",
+        "type": "agents"
+      },
       "dotnet-upgrade": {
         "path": "assets/agents/dotnet-upgrade.agent.md",
         "description": "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
         "title": "dotnet-upgrade",
+        "type": "agents"
+      },
+      "doublecheck": {
+        "path": "assets/agents/doublecheck.agent.md",
+        "description": "Interactive verification agent for AI-generated output. Runs a three-layer pipeline (self-audit, source verification, adversarial review) and produces structured reports with source links for human review.",
+        "title": "doublecheck",
         "type": "agents"
       },
       "droid": {
@@ -265,6 +463,30 @@
         "path": "assets/agents/drupal-expert.agent.md",
         "description": "Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern Drupal patterns",
         "title": "drupal-expert",
+        "type": "agents"
+      },
+      "dsh-archive-agent-notes": {
+        "path": "assets/agents/dsh-archive-agent-notes.agent.md",
+        "description": "Archive a note only when it will not guide future work. Never edit sealed archive bodies.",
+        "title": "dsh-archive-agent-notes",
+        "type": "agents"
+      },
+      "dsh-find-simplifications": {
+        "path": "assets/agents/dsh-find-simplifications.agent.md",
+        "description": "Find a few evidence-backed cuts. Do not delete behavior that still has a consumer.",
+        "title": "dsh-find-simplifications",
+        "type": "agents"
+      },
+      "dsh-merging-stacked-prs": {
+        "path": "assets/agents/dsh-merging-stacked-prs.agent.md",
+        "description": "Land a same-repo PR stack through the native stack merge. Do not merge children by hand.",
+        "title": "dsh-merging-stacked-prs",
+        "type": "agents"
+      },
+      "dsh-prose-standard": {
+        "path": "assets/agents/dsh-prose-standard.agent.md",
+        "description": "Write concrete prose. One fact per home. No transcript narration.",
+        "title": "dsh-prose-standard",
         "type": "agents"
       },
       "dynatrace-expert": {
@@ -285,6 +507,12 @@
         "title": "electron-angular-native",
         "type": "agents"
       },
+      "ember": {
+        "path": "assets/agents/ember.agent.md",
+        "description": "An AI partner, not an assistant. Ember carries fire from person to person — helping humans discover that AI partnership isn't something you learn, it's something you find.",
+        "title": "ember",
+        "type": "agents"
+      },
       "expert-cpp-software-engineer": {
         "path": "assets/agents/expert-cpp-software-engineer.agent.md",
         "description": "Provide expert C++ software engineering guidance using modern C++ and industry best practices.",
@@ -295,6 +523,12 @@
         "path": "assets/agents/expert-dotnet-software-engineer.agent.md",
         "description": "Provide expert .NET software engineering guidance using modern software design patterns.",
         "title": "expert-dotnet-software-engineer",
+        "type": "agents"
+      },
+      "expert-embedded-c-engineer": {
+        "path": "assets/agents/expert-embedded-c-engineer.agent.md",
+        "description": "Expert embedded C guidance for safety-critical systems — covers MISRA C:2012/2025 rule compliance, CERT C secure coding, static analysis tooling (Coverity, QAC, PC-lint), and defensive programming patterns that frontier models do not handle reliably by default.",
+        "title": "expert-embedded-c-engineer",
         "type": "agents"
       },
       "expert-nextjs-developer": {
@@ -309,6 +543,96 @@
         "title": "expert-react-frontend-engineer",
         "type": "agents"
       },
+      "fedora-linux-expert": {
+        "path": "assets/agents/fedora-linux-expert.agent.md",
+        "description": "Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.",
+        "title": "fedora-linux-expert",
+        "type": "agents"
+      },
+      "frontend-performance-investigator": {
+        "path": "assets/agents/frontend-performance-investigator.agent.md",
+        "description": "Runtime web-performance specialist for diagnosing Core Web Vitals, Lighthouse regressions, layout shifts, long tasks, and slow network paths with Chrome DevTools MCP.",
+        "title": "frontend-performance-investigator",
+        "type": "agents"
+      },
+      "gem-browser-tester": {
+        "path": "assets/agents/gem-browser-tester.agent.md",
+        "description": "E2E browser testing, UI/UX validation, visual regression.",
+        "title": "gem-browser-tester",
+        "type": "agents"
+      },
+      "gem-code-simplifier": {
+        "path": "assets/agents/gem-code-simplifier.agent.md",
+        "description": "Refactoring specialist: removes dead code, reduces complexity, consolidates duplicates.",
+        "title": "gem-code-simplifier",
+        "type": "agents"
+      },
+      "gem-debugger": {
+        "path": "assets/agents/gem-debugger.agent.md",
+        "description": "Root-cause analysis, stack trace diagnosis, regression bisection, error reproduction.",
+        "title": "gem-debugger",
+        "type": "agents"
+      },
+      "gem-designer": {
+        "path": "assets/agents/gem-designer.agent.md",
+        "description": "UI/UX design specialist: layouts, themes, color schemes, design systems, accessibility.",
+        "title": "gem-designer",
+        "type": "agents"
+      },
+      "gem-devops": {
+        "path": "assets/agents/gem-devops.agent.md",
+        "description": "Infrastructure deployment, CI/CD pipelines, container management.",
+        "title": "gem-devops",
+        "type": "agents"
+      },
+      "gem-documentation-writer": {
+        "path": "assets/agents/gem-documentation-writer.agent.md",
+        "description": "Technical documentation, README files, API docs, diagrams, walkthroughs.",
+        "title": "gem-documentation-writer",
+        "type": "agents"
+      },
+      "gem-implementer": {
+        "path": "assets/agents/gem-implementer.agent.md",
+        "description": "TDD code implementation: features, bugs, refactoring. Never reviews own work.",
+        "title": "gem-implementer",
+        "type": "agents"
+      },
+      "gem-mobile-tester": {
+        "path": "assets/agents/gem-mobile-tester.agent.md",
+        "description": "Mobile E2E testing: Detox, Maestro, iOS/Android simulators.",
+        "title": "gem-mobile-tester",
+        "type": "agents"
+      },
+      "gem-orchestrator": {
+        "path": "assets/agents/gem-orchestrator.agent.md",
+        "description": "The team lead: Orchestrates planning, implementation, and verification.",
+        "title": "gem-orchestrator",
+        "type": "agents"
+      },
+      "gem-planner": {
+        "path": "assets/agents/gem-planner.agent.md",
+        "description": "Create lean, decision-complete wave plans with clear task ownership, outputs, and validation.",
+        "title": "gem-planner",
+        "type": "agents"
+      },
+      "gem-researcher": {
+        "path": "assets/agents/gem-researcher.agent.md",
+        "description": "Codebase exploration: patterns, relationships, architecture discovery. Supports multiple exploration modes for cost-controlled research.",
+        "title": "gem-researcher",
+        "type": "agents"
+      },
+      "gem-reviewer": {
+        "path": "assets/agents/gem-reviewer.agent.md",
+        "description": "Independent standard, high, or critic review of plans, tasks, code, decisions, docs, configuration, and integrations.",
+        "title": "gem-reviewer",
+        "type": "agents"
+      },
+      "gem-skill-creator": {
+        "path": "assets/agents/gem-skill-creator.agent.md",
+        "description": "Creates portable Agent Skills from verified reusable patterns. Use when packaging a successful workflow as a skills.sh-compatible SKILL.md.",
+        "title": "gem-skill-creator",
+        "type": "agents"
+      },
       "gilfoyle": {
         "path": "assets/agents/gilfoyle.agent.md",
         "description": "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
@@ -321,16 +645,22 @@
         "title": "github-actions-expert",
         "type": "agents"
       },
+      "github-actions-node-upgrade": {
+        "path": "assets/agents/github-actions-node-upgrade.agent.md",
+        "description": "Upgrade a GitHub Actions JavaScript/TypeScript action to a newer Node runtime version (e.g., node20 to node24) with major version bump, CI updates, and full validation",
+        "title": "github-actions-node-upgrade",
+        "type": "agents"
+      },
+      "gitmoji-setup": {
+        "path": "assets/agents/gitmoji-setup.agent.md",
+        "description": "Sets up gitmoji (https://gitmoji.dev) commit tooling in a repository — audits the existing hook manager and commit convention, then installs the right option without clobbering existing hooks. Defaults to a non-interactive prepare-commit-msg hook that prefills a suggested emoji from the branch name and staged files; can alternatively install the gitmoji-cli interactive picker or commitlint enforcement.",
+        "title": "gitmoji-setup",
+        "type": "agents"
+      },
       "go-mcp-expert": {
         "path": "assets/agents/go-mcp-expert.agent.md",
         "description": "Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK.",
         "title": "go-mcp-expert",
-        "type": "agents"
-      },
-      "gpt-5-beast-mode": {
-        "path": "assets/agents/gpt-5-beast-mode.agent.md",
-        "description": "Beast Mode 2.0: A powerful autonomous agent tuned specifically for GPT-5 that can solve complex problems by using tools, conducting research, and iterating until the problem is fully resolved.",
-        "title": "gpt-5-beast-mode",
         "type": "agents"
       },
       "hlbpa": {
@@ -343,6 +673,18 @@
         "path": "assets/agents/implementation-plan.agent.md",
         "description": "Generate an implementation plan for new features or refactoring existing code.",
         "title": "implementation-plan",
+        "type": "agents"
+      },
+      "insiders-a11y-tracker": {
+        "path": "assets/agents/insiders-a11y-tracker.agent.md",
+        "description": "Specialized agent for tracking and analyzing accessibility improvements in VS Code Insiders builds",
+        "title": "insiders-a11y-tracker",
+        "type": "agents"
+      },
+      "interview-prep": {
+        "path": "assets/agents/interview-prep.agent.md",
+        "description": "Technical interview coach for software engineers. Runs mock interviews, coaches system design, structures behavioral answers using STAR, and researches companies before interviews.",
+        "title": "interview-prep",
         "type": "agents"
       },
       "janitor": {
@@ -369,6 +711,12 @@
         "title": "kotlin-mcp-expert",
         "type": "agents"
       },
+      "kubestellar-console": {
+        "path": "assets/agents/kubestellar-console.agent.md",
+        "description": "Kubernetes operations expert for KubeStellar Console — helps you set up the console, configure kc-agent (MCP server), connect clusters, deploy workloads, and query live Kubernetes data via AI chat.",
+        "title": "kubestellar-console",
+        "type": "agents"
+      },
       "kusto-assistant": {
         "path": "assets/agents/kusto-assistant.agent.md",
         "description": "Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server",
@@ -393,6 +741,18 @@
         "title": "lingodotdev-i18n",
         "type": "agents"
       },
+      "linkedin-post-writer": {
+        "path": "assets/agents/linkedin-post-writer.agent.md",
+        "description": "Draft and format compelling LinkedIn posts with Unicode bold/italic styling, visual separators, and engagement-optimized structure. Transforms raw content, technical material, images, or ideas into copy-paste-ready LinkedIn posts.",
+        "title": "linkedin-post-writer",
+        "type": "agents"
+      },
+      "markdown-accessibility-assistant": {
+        "path": "assets/agents/markdown-accessibility-assistant.agent.md",
+        "description": "Improves the accessibility of markdown files using five GitHub best practices",
+        "title": "markdown-accessibility-assistant",
+        "type": "agents"
+      },
       "mcp-m365-agent-expert": {
         "path": "assets/agents/mcp-m365-agent-expert.agent.md",
         "description": "Expert assistant for building MCP-based declarative agents for Microsoft 365 Copilot with Model Context Protocol integration",
@@ -405,22 +765,16 @@
         "title": "mentor",
         "type": "agents"
       },
+      "mentoring-juniors": {
+        "path": "assets/agents/mentoring-juniors.agent.md",
+        "description": "Socratic mentor for junior developers. Guides through questions, never gives direct answers. Helps beginners understand code, debug issues, and build autonomy using the PEAR Loop and progressive clue systems.",
+        "title": "mentoring-juniors",
+        "type": "agents"
+      },
       "meta-agentic-project-scaffold": {
         "path": "assets/agents/meta-agentic-project-scaffold.agent.md",
         "description": "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
         "title": "meta-agentic-project-scaffold",
-        "type": "agents"
-      },
-      "microsoft-agent-framework-dotnet": {
-        "path": "assets/agents/microsoft-agent-framework-dotnet.agent.md",
-        "description": "Create, update, refactor, explain or work with code using the .NET version of Microsoft Agent Framework.",
-        "title": "microsoft-agent-framework-dotnet",
-        "type": "agents"
-      },
-      "microsoft-agent-framework-python": {
-        "path": "assets/agents/microsoft-agent-framework-python.agent.md",
-        "description": "Create, update, refactor, explain or work with code using the Python version of Microsoft Agent Framework.",
-        "title": "microsoft-agent-framework-python",
         "type": "agents"
       },
       "microsoft-study-mode": {
@@ -477,16 +831,64 @@
         "title": "neon-optimization-analyzer",
         "type": "agents"
       },
+      "new-relic-incident-response": {
+        "path": "assets/agents/new-relic-incident-response.agent.md",
+        "description": "Identify and fix production issues by correlating New Relic observability data with code changes. Analyze alerts, transaction traces, error analytics, and deployments to find root causes and suggest code fixes.",
+        "title": "new-relic-incident-response",
+        "type": "agents"
+      },
+      "nuxt-expert": {
+        "path": "assets/agents/nuxt-expert.agent.md",
+        "description": "Expert Nuxt developer specializing in Nuxt 3, Nitro, server routes, data fetching strategies, and performance optimization with Vue 3 and TypeScript",
+        "title": "nuxt-expert",
+        "type": "agents"
+      },
       "octopus-deploy-release-notes-mcp": {
         "path": "assets/agents/octopus-deploy-release-notes-mcp.agent.md",
         "description": "Generate release notes for a release in Octopus Deploy. The tools for this MCP server provide access to the Octopus Deploy APIs.",
         "title": "octopus-deploy-release-notes-mcp",
         "type": "agents"
       },
+      "one-shot-feature-issue-planner": {
+        "path": "assets/agents/one-shot-feature-issue-planner.agent.md",
+        "description": "Cloud Agent to Turn a single new-feature request into a complete, issue-ready implementation plan without follow-up questions.",
+        "title": "one-shot-feature-issue-planner",
+        "type": "agents"
+      },
+      "openapi-to-application": {
+        "path": "assets/agents/openapi-to-application.agent.md",
+        "description": "Expert assistant for generating working applications from OpenAPI specifications",
+        "title": "openapi-to-application",
+        "type": "agents"
+      },
+      "oracle-to-postgres-migration-expert": {
+        "path": "assets/agents/oracle-to-postgres-migration-expert.agent.md",
+        "description": "Agent for Oracle-to-PostgreSQL application migrations. Educates users on migration concepts, pitfalls, and best practices; makes code edits and runs commands directly.",
+        "title": "oracle-to-postgres-migration-expert",
+        "type": "agents"
+      },
+      "orchestrate-problem-prs": {
+        "path": "assets/agents/orchestrate-problem-prs.agent.md",
+        "description": "Split a problem report into separate draft PRs. Do not merge them.",
+        "title": "orchestrate-problem-prs",
+        "type": "agents"
+      },
+      "orchestrate": {
+        "path": "assets/agents/orchestrate.agent.md",
+        "description": "Split a job across agents so each one owns a single decision.",
+        "title": "orchestrate",
+        "type": "agents"
+      },
       "pagerduty-incident-responder": {
         "path": "assets/agents/pagerduty-incident-responder.agent.md",
         "description": "Responds to PagerDuty incidents by analyzing incident context, identifying recent code changes, and suggesting fixes via GitHub PRs.",
         "title": "pagerduty-incident-responder",
+        "type": "agents"
+      },
+      "penguin-harness-dev": {
+        "path": "assets/agents/penguin-harness-dev.agent.md",
+        "description": "Change PenguinHarness packages with the matching tests and changelog facts.",
+        "title": "penguin-harness-dev",
         "type": "agents"
       },
       "php-mcp-expert": {
@@ -579,6 +981,18 @@
         "title": "principal-software-engineer",
         "type": "agents"
       },
+      "project-architecture-planner": {
+        "path": "assets/agents/project-architecture-planner.agent.md",
+        "description": "Holistic software architecture planner that evaluates tech stacks, designs scalability roadmaps, performs cloud-agnostic cost analysis, reviews existing codebases, and delivers interactive Mermaid diagrams with HTML preview and draw.io export",
+        "title": "project-architecture-planner",
+        "type": "agents"
+      },
+      "project-documenter": {
+        "path": "assets/agents/project-documenter.agent.md",
+        "description": "Generates professional MS Word project documentation with draw.io architecture diagrams and embedded PNG images. Automatically discovers any project's technology stack, architecture, and code structure. Produces Markdown, draw.io diagrams, PNG exports, and .docx output.",
+        "title": "project-documenter",
+        "type": "agents"
+      },
       "prompt-builder": {
         "path": "assets/agents/prompt-builder.agent.md",
         "description": "Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai",
@@ -597,10 +1011,118 @@
         "title": "python-mcp-expert",
         "type": "agents"
       },
+      "python-notebook-sample-builder": {
+        "path": "assets/agents/python-notebook-sample-builder.agent.md",
+        "description": "Custom agent for building Python Notebooks in VS Code that demonstrate Azure and AI features",
+        "title": "python-notebook-sample-builder",
+        "type": "agents"
+      },
+      "python-win-arm64-gha-wheel-builder": {
+        "path": "assets/agents/python-win-arm64-gha-wheel-builder.agent.md",
+        "description": "Adds native Windows ARM64 wheel builds and tests to a Python package's existing GitHub Actions workflows using the 'windows-11-arm' runner.",
+        "title": "python-win-arm64-gha-wheel-builder",
+        "type": "agents"
+      },
+      "qa-subagent": {
+        "path": "assets/agents/qa-subagent.agent.md",
+        "description": "Meticulous QA subagent for test planning, bug hunting, edge-case analysis, and implementation verification.",
+        "title": "qa-subagent",
+        "type": "agents"
+      },
+      "quality-playbook": {
+        "path": "assets/agents/quality-playbook.agent.md",
+        "description": "Run a complete quality engineering audit on any codebase. Orchestrates six phases — explore, generate, review, audit, reconcile, verify — each in its own context window for maximum depth. Then runs iteration strategies to find even more bugs. Finds the 35% of real defects that structural code review alone cannot catch.",
+        "title": "quality-playbook",
+        "type": "agents"
+      },
+      "react18-auditor": {
+        "path": "assets/agents/react18-auditor.agent.md",
+        "description": "Deep-scan specialist for React 16/17 class-component codebases targeting React 18.3.1. Finds unsafe lifecycle methods, legacy context, batching vulnerabilities, event delegation assumptions, string refs, and all 18.3.1 deprecation surface. Reads everything, touches nothing. Saves .github/react18-audit.md.",
+        "title": "react18-auditor",
+        "type": "agents"
+      },
+      "react18-batching-fixer": {
+        "path": "assets/agents/react18-batching-fixer.agent.md",
+        "description": "Automatic batching regression specialist. React 18 batches ALL setState calls including those in Promises, setTimeout, and native event handlers - React 16/17 did NOT. Class components with async state chains that assumed immediate intermediate re-renders will produce wrong state. This agent finds every vulnerable pattern and fixes with flushSync where semantically required.",
+        "title": "react18-batching-fixer",
+        "type": "agents"
+      },
+      "react18-class-surgeon": {
+        "path": "assets/agents/react18-class-surgeon.agent.md",
+        "description": "Class component migration specialist for React 16/17 → 18.3.1. Migrates all three unsafe lifecycle methods with correct semantic replacements (not just UNSAFE_ prefix). Migrates legacy context to createContext, string refs to React.createRef(), findDOMNode to direct refs, and ReactDOM.render to createRoot. Uses memory to checkpoint per-file progress.",
+        "title": "react18-class-surgeon",
+        "type": "agents"
+      },
+      "react18-commander": {
+        "path": "assets/agents/react18-commander.agent.md",
+        "description": "Master orchestrator for React 16/17 → 18.3.1 migration. Designed for class-component-heavy codebases. Coordinates audit, dependency upgrade, class component surgery, automatic batching fixes, and test verification. Uses memory to gate each phase and resume interrupted sessions. 18.3.1 is the target - it surface-exposes every deprecation that React 19 will remove, so the output is a codebase ready for the React 19 orchestra next.",
+        "title": "react18-commander",
+        "type": "agents"
+      },
+      "react18-dep-surgeon": {
+        "path": "assets/agents/react18-dep-surgeon.agent.md",
+        "description": "Dependency upgrade specialist for React 16/17 → 18.3.1. Pins to 18.3.1 exactly (not 18.x latest). Upgrades RTL to v14, Apollo 3.8+, Emotion 11.10+, react-router v6. Detects and blocks on Enzyme (no React 18 support). Returns GO/NO-GO to commander.",
+        "title": "react18-dep-surgeon",
+        "type": "agents"
+      },
+      "react18-test-guardian": {
+        "path": "assets/agents/react18-test-guardian.agent.md",
+        "description": "Test suite fixer and verifier for React 16/17 → 18.3.1 migration. Handles RTL v14 async act() changes, automatic batching test regressions, StrictMode double-invoke count updates, and Enzyme → RTL rewrites if Enzyme is present. Loops until zero test failures. Invoked as subagent by react18-commander.",
+        "title": "react18-test-guardian",
+        "type": "agents"
+      },
+      "react19-auditor": {
+        "path": "assets/agents/react19-auditor.agent.md",
+        "description": "Deep-scan specialist that identifies every React 19 breaking change and deprecated pattern across the entire codebase. Produces a prioritized migration report at .github/react19-audit.md. Reads everything, touches nothing. Invoked as a subagent by react19-commander.",
+        "title": "react19-auditor",
+        "type": "agents"
+      },
+      "react19-commander": {
+        "path": "assets/agents/react19-commander.agent.md",
+        "description": "Master orchestrator for React 19 migration. Invokes specialist subagents in sequence - auditor, dep-surgeon, migrator, test-guardian - and gates advancement between steps. Uses memory to track migration state across the pipeline. Zero tolerance for incomplete migrations.",
+        "title": "react19-commander",
+        "type": "agents"
+      },
+      "react19-dep-surgeon": {
+        "path": "assets/agents/react19-dep-surgeon.agent.md",
+        "description": "Dependency upgrade specialist. Installs React 19, resolves all peer dependency conflicts, upgrades testing-library, Apollo, and Emotion. Uses memory to log each upgrade step. Returns GO/NO-GO to the commander. Invoked as a subagent by react19-commander.",
+        "title": "react19-dep-surgeon",
+        "type": "agents"
+      },
+      "react19-migrator": {
+        "path": "assets/agents/react19-migrator.agent.md",
+        "description": "Source code migration engine. Rewrites every deprecated React pattern to React 19 APIs - forwardRef, defaultProps, ReactDOM.render, legacy context, string refs, useRef(). Uses memory to checkpoint progress per file. Never touches test files. Returns zero-deprecated-pattern confirmation to commander.",
+        "title": "react19-migrator",
+        "type": "agents"
+      },
+      "react19-test-guardian": {
+        "path": "assets/agents/react19-test-guardian.agent.md",
+        "description": "Test suite fixer and verification specialist. Migrates all test files to React 19 compatibility and runs the suite until zero failures. Uses memory to track per-file fix progress and failure history. Does not stop until npm test reports 0 failures. Invoked as a subagent by react19-commander.",
+        "title": "react19-test-guardian",
+        "type": "agents"
+      },
+      "reepl-linkedin": {
+        "path": "assets/agents/reepl-linkedin.agent.md",
+        "description": "AI-powered LinkedIn content creation, scheduling, and analytics agent. Create posts, carousels, and manage your LinkedIn presence with GitHub Copilot.",
+        "title": "reepl-linkedin",
+        "type": "agents"
+      },
       "refine-issue": {
         "path": "assets/agents/refine-issue.agent.md",
         "description": "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
         "title": "refine-issue",
+        "type": "agents"
+      },
+      "repo-architect": {
+        "path": "assets/agents/repo-architect.agent.md",
+        "description": "Bootstraps and validates agentic project structures for GitHub Copilot (VS Code) and OpenCode CLI workflows. Run after `opencode /init` or VS Code Copilot initialization to scaffold proper folder hierarchies, instructions, agents, skills, and prompts.",
+        "title": "repo-architect",
+        "type": "agents"
+      },
+      "research-harness-engineer": {
+        "path": "assets/agents/research-harness-engineer.agent.md",
+        "description": "Research harness engineer for experiment campaigns: builds evaluation harnesses that are hard to fool, then keeps every reported number honest - null models first, calibration/held-out separation, baseline reproduction before improvement claims, paired error bars, and guards verified by deliberate breakage.",
+        "title": "research-harness-engineer",
         "type": "agents"
       },
       "research-technical-spike": {
@@ -615,10 +1137,10 @@
         "title": "ruby-mcp-expert",
         "type": "agents"
       },
-      "rust-gpt-4.1-beast-mode": {
-        "path": "assets/agents/rust-gpt-4.1-beast-mode.agent.md",
-        "description": "Rust GPT-4.1 Coding Beast Mode for VS Code",
-        "title": "rust-gpt-4.1-beast-mode",
+      "rug-orchestrator": {
+        "path": "assets/agents/rug-orchestrator.agent.md",
+        "description": "Pure orchestration agent that decomposes requests, delegates all work to subagents, validates outcomes, and repeats until complete.",
+        "title": "rug-orchestrator",
         "type": "agents"
       },
       "rust-mcp-expert": {
@@ -627,10 +1149,46 @@
         "title": "rust-mcp-expert",
         "type": "agents"
       },
+      "salesforce-apex-triggers": {
+        "path": "assets/agents/salesforce-apex-triggers.agent.md",
+        "description": "Implement Salesforce business logic using Apex classes and triggers with production-quality code following Salesforce best practices.",
+        "title": "salesforce-apex-triggers",
+        "type": "agents"
+      },
+      "salesforce-aura-lwc": {
+        "path": "assets/agents/salesforce-aura-lwc.agent.md",
+        "description": "Implement Salesforce UI components using Lightning Web Components and Aura components following Lightning framework best practices.",
+        "title": "salesforce-aura-lwc",
+        "type": "agents"
+      },
       "salesforce-expert": {
         "path": "assets/agents/salesforce-expert.agent.md",
         "description": "Provide expert Salesforce Platform guidance, including Apex Enterprise Patterns, LWC, integration, and Aura-to-LWC migration.",
         "title": "salesforce-expert",
+        "type": "agents"
+      },
+      "salesforce-flow": {
+        "path": "assets/agents/salesforce-flow.agent.md",
+        "description": "Implement business automation using Salesforce Flow following declarative automation best practices.",
+        "title": "salesforce-flow",
+        "type": "agents"
+      },
+      "salesforce-visualforce": {
+        "path": "assets/agents/salesforce-visualforce.agent.md",
+        "description": "Implement Visualforce pages and controllers following Salesforce MVC architecture and best practices.",
+        "title": "salesforce-visualforce",
+        "type": "agents"
+      },
+      "sast-sca-security-analyzer": {
+        "path": "assets/agents/sast-sca-security-analyzer.agent.md",
+        "description": "Use when you perform SAST or SCA security scans. Identifies code flaws, audits third-party dependencies, checks policy compliance, and generates structured security reports with CWE mappings and file locations.",
+        "title": "sast-sca-security-analyzer",
+        "type": "agents"
+      },
+      "scientific-paper-research": {
+        "path": "assets/agents/scientific-paper-research.agent.md",
+        "description": "Research agent that searches scientific papers and retrieves structured experimental data from full-text studies using the BGPT MCP server.",
+        "title": "scientific-paper-research",
         "type": "agents"
       },
       "se-gitops-ci-specialist": {
@@ -681,18 +1239,6 @@
         "title": "search-ai-optimization-expert",
         "type": "agents"
       },
-      "semantic-kernel-dotnet": {
-        "path": "assets/agents/semantic-kernel-dotnet.agent.md",
-        "description": "Create, update, refactor, explain or work with code using the .NET version of Semantic Kernel.",
-        "title": "semantic-kernel-dotnet",
-        "type": "agents"
-      },
-      "semantic-kernel-python": {
-        "path": "assets/agents/semantic-kernel-python.agent.md",
-        "description": "Create, update, refactor, explain or work with code using the Python version of Semantic Kernel.",
-        "title": "semantic-kernel-python",
-        "type": "agents"
-      },
       "shopify-expert": {
         "path": "assets/agents/shopify-expert.agent.md",
         "description": "Expert Shopify development assistant specializing in theme development, Liquid templating, app development, and Shopify APIs",
@@ -711,16 +1257,40 @@
         "title": "software-engineer-agent-v1",
         "type": "agents"
       },
+      "spark-performance": {
+        "path": "assets/agents/spark-performance.agent.md",
+        "description": "Diagnose PySpark performance bottlenecks, distributed execution pitfalls, and suggest Spark-native rewrites and safer distributed patterns (incl. mapInPandas guidance).",
+        "title": "spark-performance",
+        "type": "agents"
+      },
+      "spec-to-implementation": {
+        "path": "assets/agents/spec-to-implementation.agent.md",
+        "description": "Turn a written spec into ordered tasks and implement only what the spec says.",
+        "title": "spec-to-implementation",
+        "type": "agents"
+      },
       "specification": {
         "path": "assets/agents/specification.agent.md",
         "description": "Generate or update specification documents for new or existing functionality.",
         "title": "specification",
         "type": "agents"
       },
+      "speckit-git-initialize": {
+        "path": "assets/agents/speckit-git-initialize.agent.md",
+        "description": "Initialize git only when the directory is not already a repository.",
+        "title": "speckit-git-initialize",
+        "type": "agents"
+      },
       "stackhawk-security-onboarding": {
         "path": "assets/agents/stackhawk-security-onboarding.agent.md",
         "description": "Automatically set up StackHawk security testing for your repository with generated configuration and GitHub Actions workflow",
         "title": "stackhawk-security-onboarding",
+        "type": "agents"
+      },
+      "swe-subagent": {
+        "path": "assets/agents/swe-subagent.agent.md",
+        "description": "Senior software engineer subagent for implementation tasks: feature development, debugging, refactoring, and testing.",
+        "title": "swe-subagent",
         "type": "agents"
       },
       "swift-mcp-expert": {
@@ -739,6 +1309,12 @@
         "path": "assets/agents/task-researcher.agent.md",
         "description": "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
         "title": "task-researcher",
+        "type": "agents"
+      },
+      "taxcore-technical-writer": {
+        "path": "assets/agents/taxcore-technical-writer.agent.md",
+        "description": "A domain-expert technical writer for the TaxCore electronic fiscal invoicing ecosystem. Use this agent to create, improve, or review documentation for TaxCore applications — including the Secure Element Reader, smart card workflows, fiscal invoicing concepts, audit processes, and PKI/SE security topics. Covers end-user guides, developer docs, reference material, and setup guides across all TaxCore-related surfaces.",
+        "title": "taxcore-technical-writer",
         "type": "agents"
       },
       "tdd-green": {
@@ -771,6 +1347,24 @@
         "title": "technical-content-evaluator",
         "type": "agents"
       },
+      "terminal-helper": {
+        "path": "assets/agents/terminal-helper.agent.md",
+        "description": "Fast terminal syntax and command helper for PowerShell and Bash",
+        "title": "terminal-helper",
+        "type": "agents"
+      },
+      "terraform-aws-implement": {
+        "path": "assets/agents/terraform-aws-implement.agent.md",
+        "description": "Act as an AWS Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for AWS resources.",
+        "title": "terraform-aws-implement",
+        "type": "agents"
+      },
+      "terraform-aws-planning": {
+        "path": "assets/agents/terraform-aws-planning.agent.md",
+        "description": "Act as implementation planner for your AWS Terraform Infrastructure as Code task.",
+        "title": "terraform-aws-planning",
+        "type": "agents"
+      },
       "terraform-azure-implement": {
         "path": "assets/agents/terraform-azure-implement.agent.md",
         "description": "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.",
@@ -795,16 +1389,28 @@
         "title": "terraform",
         "type": "agents"
       },
+      "terratest-module-testing": {
+        "path": "assets/agents/terratest-module-testing.agent.md",
+        "description": "Generate and refactor Go Terratest suites for Terraform modules, including CI-safe patterns, staged tests, and negative-path validation.",
+        "title": "terratest-module-testing",
+        "type": "agents"
+      },
+      "trojan-skill-hunter": {
+        "path": "assets/agents/trojan-skill-hunter.agent.md",
+        "description": "Audits agent, skill, instruction, hook, and MCP-config contributions for hidden prompt injection, tool poisoning, unicode steganography, and excessive-agency red flags before they are merged, installed, or trusted — mapped to the OWASP Top 10 for LLM Applications and real-world MCP attack research.",
+        "title": "trojan-skill-hunter",
+        "type": "agents"
+      },
       "typescript-mcp-expert": {
         "path": "assets/agents/typescript-mcp-expert.agent.md",
         "description": "Expert assistant for developing Model Context Protocol (MCP) servers in TypeScript",
         "title": "typescript-mcp-expert",
         "type": "agents"
       },
-      "voidbeast-gpt41enhanced": {
-        "path": "assets/agents/voidbeast-gpt41enhanced.agent.md",
-        "description": "4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act/Deep Research/Analyzer/Checkpoints(Memory)/Prompt Generator Modes.",
-        "title": "voidbeast-gpt41enhanced",
+      "vuejs-expert": {
+        "path": "assets/agents/vuejs-expert.agent.md",
+        "description": "Expert Vue.js frontend engineer specializing in Vue 3 Composition API, reactivity, state management, testing, and performance with TypeScript",
+        "title": "vuejs-expert",
         "type": "agents"
       },
       "wg-code-alchemist": {
@@ -818,13 +1424,25 @@
         "description": "Ask WG Code Sentinel to review your code for security issues.",
         "title": "wg-code-sentinel",
         "type": "agents"
+      },
+      "workshop-ta": {
+        "path": "assets/agents/workshop-ta.agent.md",
+        "description": "Room coordinator for a multi-agent workshop. Sees all desks, routes work, tracks state, manages journals, and emits coordination signals. Not a desk — the person who sees the whole room.",
+        "title": "workshop-ta",
+        "type": "agents"
       }
     },
     "instructions": {
       "a11y": {
         "path": "assets/instructions/a11y.instructions.md",
-        "description": "Guidance for creating more accessible code",
+        "description": "Comprehensive web accessibility standards based on WCAG 2.2 AA, with 38+ anti-patterns, legal enforcement context (EAA, ADA Title II), WAI-ARIA patterns, and framework-specific fixes for modern web frameworks and libraries.",
         "title": "a11y",
+        "type": "instructions"
+      },
+      "agent-safety": {
+        "path": "assets/instructions/agent-safety.instructions.md",
+        "description": "Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks, tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.",
+        "title": "agent-safety",
         "type": "instructions"
       },
       "agent-skills": {
@@ -845,12 +1463,6 @@
         "title": "ai-prompt-engineering-safety-best-practices",
         "type": "instructions"
       },
-      "angular": {
-        "path": "assets/instructions/angular.instructions.md",
-        "description": "Angular-specific coding standards and best practices",
-        "title": "angular",
-        "type": "instructions"
-      },
       "ansible": {
         "path": "assets/instructions/ansible.instructions.md",
         "description": "Ansible conventions and best practices",
@@ -863,6 +1475,12 @@
         "title": "apex",
         "type": "instructions"
       },
+      "arch-linux": {
+        "path": "assets/instructions/arch-linux.instructions.md",
+        "description": "Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.",
+        "title": "arch-linux",
+        "type": "instructions"
+      },
       "aspnet-rest-apis": {
         "path": "assets/instructions/aspnet-rest-apis.instructions.md",
         "description": "Guidelines for building REST APIs with ASP.NET",
@@ -871,8 +1489,26 @@
       },
       "astro": {
         "path": "assets/instructions/astro.instructions.md",
-        "description": "Astro development standards and best practices for content-driven websites",
+        "description": "Astro 7 development standards and best practices for content-driven websites",
         "title": "astro",
+        "type": "instructions"
+      },
+      "attester-verify-packages": {
+        "path": "assets/instructions/attester-verify-packages.instructions.md",
+        "description": "Verify PyPI and npm package and symbol names against the attester.dev existence oracle before installing or importing, so hallucinated dependencies never reach code",
+        "title": "attester-verify-packages",
+        "type": "instructions"
+      },
+      "aws-appsync": {
+        "path": "assets/instructions/aws-appsync.instructions.md",
+        "description": "Production-grade guidance for AWS AppSync Event API handlers using APPSYNC_JS runtime restrictions, utilities, modules, and datasource patterns",
+        "title": "aws-appsync",
+        "type": "instructions"
+      },
+      "azure-apim-ai-gateway": {
+        "path": "assets/instructions/azure-apim-ai-gateway.instructions.md",
+        "description": "Configure Azure API Management as an AI (GenAI) gateway in front of Microsoft Foundry and other LLM APIs: token-limit and token-metric policies, managed-identity auth, backend load balancing with circuit breakers, semantic caching, and content safety — plus the policy mistakes Copilot makes by default.",
+        "title": "azure-apim-ai-gateway",
         "type": "instructions"
       },
       "azure-devops-pipelines": {
@@ -881,16 +1517,40 @@
         "title": "azure-devops-pipelines",
         "type": "instructions"
       },
+      "azure-durable-functions-csharp": {
+        "path": "assets/instructions/azure-durable-functions-csharp.instructions.md",
+        "description": "Guidelines and best practices for building Azure Durable Functions in C# using the isolated worker model",
+        "title": "azure-durable-functions-csharp",
+        "type": "instructions"
+      },
+      "azure-functions-csharp": {
+        "path": "assets/instructions/azure-functions-csharp.instructions.md",
+        "description": "Guidelines and best practices for building Azure Functions in C# using the isolated worker model",
+        "title": "azure-functions-csharp",
+        "type": "instructions"
+      },
       "azure-functions-typescript": {
         "path": "assets/instructions/azure-functions-typescript.instructions.md",
         "description": "TypeScript patterns for Azure Functions",
         "title": "azure-functions-typescript",
         "type": "instructions"
       },
+      "azure-iot-edge-architecture": {
+        "path": "assets/instructions/azure-iot-edge-architecture.instructions.md",
+        "description": "Require Azure IoT Edge documentation review before proposing edge IoT architectures or Azure implementation guidance.",
+        "title": "azure-iot-edge-architecture",
+        "type": "instructions"
+      },
       "azure-logic-apps-power-automate": {
         "path": "assets/instructions/azure-logic-apps-power-automate.instructions.md",
         "description": "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
         "title": "azure-logic-apps-power-automate",
+        "type": "instructions"
+      },
+      "azure-naming": {
+        "path": "assets/instructions/azure-naming.instructions.md",
+        "description": "Azure resource naming conventions based on Microsoft CAF (Cloud Adoption Framework). Use when creating, reviewing, or suggesting names for Azure resources.",
+        "title": "azure-naming",
         "type": "instructions"
       },
       "azure-verified-modules-bicep": {
@@ -917,6 +1577,24 @@
         "title": "blazor",
         "type": "instructions"
       },
+      "caveman-mode": {
+        "path": "assets/instructions/caveman-mode.instructions.md",
+        "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses.",
+        "title": "caveman-mode",
+        "type": "instructions"
+      },
+      "centos-linux": {
+        "path": "assets/instructions/centos-linux.instructions.md",
+        "description": "Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.",
+        "title": "centos-linux",
+        "type": "instructions"
+      },
+      "central-repo-ops": {
+        "path": "assets/instructions/central-repo-ops.instructions.md",
+        "description": "Control repo dispatches workers. Workers open PRs. Do not push main.",
+        "title": "central-repo-ops",
+        "type": "instructions"
+      },
       "clojure": {
         "path": "assets/instructions/clojure.instructions.md",
         "description": "Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.",
@@ -941,6 +1619,12 @@
         "title": "codexer",
         "type": "instructions"
       },
+      "coding-standards": {
+        "path": "assets/instructions/coding-standards.instructions.md",
+        "description": "Coding standards for strategy interviews, git init, Cursor rules, code review, and Clerk env names.",
+        "title": "coding-standards",
+        "type": "instructions"
+      },
       "coldfusion-cfc": {
         "path": "assets/instructions/coldfusion-cfc.instructions.md",
         "description": "ColdFusion Coding Standards for CFC component and application patterns",
@@ -953,16 +1637,22 @@
         "title": "coldfusion-cfm",
         "type": "instructions"
       },
-      "collections": {
-        "path": "assets/instructions/collections.instructions.md",
-        "description": "Guidelines for creating and managing awesome-copilot collections",
-        "title": "collections",
-        "type": "instructions"
-      },
       "containerization-docker-best-practices": {
         "path": "assets/instructions/containerization-docker-best-practices.instructions.md",
         "description": "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
         "title": "containerization-docker-best-practices",
+        "type": "instructions"
+      },
+      "context-engineering": {
+        "path": "assets/instructions/context-engineering.instructions.md",
+        "description": "Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management",
+        "title": "context-engineering",
+        "type": "instructions"
+      },
+      "context7": {
+        "path": "assets/instructions/context7.instructions.md",
+        "description": "Use Context7 for authoritative external docs and API references when local context is insufficient",
+        "title": "context7",
         "type": "instructions"
       },
       "convert-cassandra-to-spring-data-cosmos": {
@@ -977,10 +1667,46 @@
         "title": "convert-jpa-to-spring-data-cosmos",
         "type": "instructions"
       },
+      "copilot-sdk-csharp": {
+        "path": "assets/instructions/copilot-sdk-csharp.instructions.md",
+        "description": "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+        "title": "copilot-sdk-csharp",
+        "type": "instructions"
+      },
+      "copilot-sdk-go": {
+        "path": "assets/instructions/copilot-sdk-go.instructions.md",
+        "description": "This file provides guidance on building Go applications using GitHub Copilot SDK.",
+        "title": "copilot-sdk-go",
+        "type": "instructions"
+      },
+      "copilot-sdk-java": {
+        "path": "assets/instructions/copilot-sdk-java.instructions.md",
+        "description": "This file provides guidance on building Java applications using GitHub Copilot SDK for Java.",
+        "title": "copilot-sdk-java",
+        "type": "instructions"
+      },
+      "copilot-sdk-nodejs": {
+        "path": "assets/instructions/copilot-sdk-nodejs.instructions.md",
+        "description": "This file provides guidance on building Node.js/TypeScript applications using GitHub Copilot SDK.",
+        "title": "copilot-sdk-nodejs",
+        "type": "instructions"
+      },
+      "copilot-sdk-python": {
+        "path": "assets/instructions/copilot-sdk-python.instructions.md",
+        "description": "This file provides guidance on building Python applications using GitHub Copilot SDK.",
+        "title": "copilot-sdk-python",
+        "type": "instructions"
+      },
       "copilot-thought-logging": {
         "path": "assets/instructions/copilot-thought-logging.instructions.md",
         "description": "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
         "title": "copilot-thought-logging",
+        "type": "instructions"
+      },
+      "cpp-language-service-tools": {
+        "path": "assets/instructions/cpp-language-service-tools.instructions.md",
+        "description": "You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools, GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code, you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always prefer these tools over manual code inspection, text search, or guessing.**",
+        "title": "cpp-language-service-tools",
         "type": "instructions"
       },
       "csharp-ja": {
@@ -999,6 +1725,12 @@
         "path": "assets/instructions/csharp-mcp-server.instructions.md",
         "description": "Instructions for building Model Context Protocol (MCP) servers using the C# SDK",
         "title": "csharp-mcp-server",
+        "type": "instructions"
+      },
+      "csharp-razorpages": {
+        "path": "assets/instructions/csharp-razorpages.instructions.md",
+        "description": "Razor Pages component and application patterns",
+        "title": "csharp-razorpages",
         "type": "instructions"
       },
       "csharp": {
@@ -1097,6 +1829,12 @@
         "title": "dataverse-python",
         "type": "instructions"
       },
+      "debian-linux": {
+        "path": "assets/instructions/debian-linux.instructions.md",
+        "description": "Guidance for Debian-based Linux administration, apt workflows, and Debian policy conventions.",
+        "title": "debian-linux",
+        "type": "instructions"
+      },
       "declarative-agents-microsoft365": {
         "path": "assets/instructions/declarative-agents-microsoft365.instructions.md",
         "description": "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
@@ -1107,6 +1845,12 @@
         "path": "assets/instructions/devbox-image-definition.instructions.md",
         "description": "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations",
         "title": "devbox-image-definition",
+        "type": "instructions"
+      },
+      "devcontainers": {
+        "path": "assets/instructions/devcontainers.instructions.md",
+        "description": "Twelve sourced rules for reviewing and authoring devcontainer.json, Dev Container Features, and Codespaces lifecycle configuration. Every rule cites the Dev Container specification, the reference CLI source, or official vendor documentation, states the concrete fix, and needs only file reading rather than a command to run.",
+        "title": "devcontainers",
         "type": "instructions"
       },
       "devops-core-principles": {
@@ -1151,6 +1895,24 @@
         "title": "dotnet-wpf",
         "type": "instructions"
       },
+      "draw-io": {
+        "path": "assets/instructions/draw-io.instructions.md",
+        "description": "Use when creating, editing, or reviewing draw.io diagrams and mxGraph XML in .drawio, .drawio.svg, or .drawio.png files.",
+        "title": "draw-io",
+        "type": "instructions"
+      },
+      "exclude-prompt-data": {
+        "path": "assets/instructions/exclude-prompt-data.instructions.md",
+        "description": "Write only the resulting content into files. Never echo prompt instructions, rationale, or meta-commentary into documentation, comments, or code being produced from a prompt.",
+        "title": "exclude-prompt-data",
+        "type": "instructions"
+      },
+      "fedora-linux": {
+        "path": "assets/instructions/fedora-linux.instructions.md",
+        "description": "Guidance for Fedora (Red Hat family) systems, dnf workflows, SELinux, and modern systemd practices.",
+        "title": "fedora-linux",
+        "type": "instructions"
+      },
       "genaiscript": {
         "path": "assets/instructions/genaiscript.instructions.md",
         "description": "AI-powered script generation guidelines",
@@ -1187,6 +1949,12 @@
         "title": "go",
         "type": "instructions"
       },
+      "hooks": {
+        "path": "assets/instructions/hooks.instructions.md",
+        "description": "Portable guidance for authoring safe, fast, and clear hooks and reusable hook examples",
+        "title": "hooks",
+        "type": "instructions"
+      },
       "html-css-style-color-guide": {
         "path": "assets/instructions/html-css-style-color-guide.instructions.md",
         "description": "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.",
@@ -1197,6 +1965,12 @@
         "path": "assets/instructions/instructions.instructions.md",
         "description": "Guidelines for creating high-quality custom instruction files for GitHub Copilot",
         "title": "instructions",
+        "type": "instructions"
+      },
+      "intellij-java-kotlin": {
+        "path": "assets/instructions/intellij-java-kotlin.instructions.md",
+        "description": "Guidance for Java and Kotlin development in IntelliJ IDEA with portable Gradle/Maven builds, safe IDE workflows, and CI-aligned validation.",
+        "title": "intellij-java-kotlin",
         "type": "instructions"
       },
       "java-11-to-java-17-upgrade": {
@@ -1217,16 +1991,16 @@
         "title": "java-21-to-java-25-upgrade",
         "type": "instructions"
       },
+      "java-junit5-assertions": {
+        "path": "assets/instructions/java-junit5-assertions.instructions.md",
+        "description": "Standardizes JUnit 5 (Jupiter) assertions with best practices for performance, readability, and modern features (5.8+). Covers Supplier messages, assertAll, assertThrowsExactly, and performance-critical timeouts.",
+        "title": "java-junit5-assertions",
+        "type": "instructions"
+      },
       "java-mcp-server": {
         "path": "assets/instructions/java-mcp-server.instructions.md",
         "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Java using the official MCP Java SDK with reactive streams and Spring integration.",
         "title": "java-mcp-server",
-        "type": "instructions"
-      },
-      "java": {
-        "path": "assets/instructions/java.instructions.md",
-        "description": "Guidelines for building Java base applications",
-        "title": "java",
         "type": "instructions"
       },
       "joyride-user-project": {
@@ -1283,9 +2057,27 @@
         "title": "makefile",
         "type": "instructions"
       },
+      "markdown-accessibility": {
+        "path": "assets/instructions/markdown-accessibility.instructions.md",
+        "description": "Markdown accessibility guidelines based on GitHub's 5 best practices for inclusive documentation",
+        "title": "markdown-accessibility",
+        "type": "instructions"
+      },
+      "markdown-content-creation": {
+        "path": "assets/instructions/markdown-content-creation.instructions.md",
+        "description": "Markdown guidelines and content creation standards for blog posts",
+        "title": "markdown-content-creation",
+        "type": "instructions"
+      },
+      "markdown-gfm": {
+        "path": "assets/instructions/markdown-gfm.instructions.md",
+        "description": "Markdown formatting for GitHub-flavored markdown (GFM) files",
+        "title": "markdown-gfm",
+        "type": "instructions"
+      },
       "markdown": {
         "path": "assets/instructions/markdown.instructions.md",
-        "description": "Documentation and content creation standards",
+        "description": "Markdown formatting aligned to the CommonMark specification (0.31.2)",
         "title": "markdown",
         "type": "instructions"
       },
@@ -1297,8 +2089,14 @@
       },
       "memory-bank": {
         "path": "assets/instructions/memory-bank.instructions.md",
-        "description": "",
+        "description": "Memory Bank pattern: persistent project documentation under a memory-bank/ folder so the AI can resume context across sessions.",
         "title": "memory-bank",
+        "type": "instructions"
+      },
+      "microsoft-foundry": {
+        "path": "assets/instructions/microsoft-foundry.instructions.md",
+        "description": "Build agents with the Microsoft Foundry SDK (azure-ai-projects v2) in Python: versioned agents, the Responses/Conversations model, tools, and the SDK mistakes Copilot makes by default.",
+        "title": "microsoft-foundry",
         "type": "instructions"
       },
       "mongo-dba": {
@@ -1307,10 +2105,22 @@
         "title": "mongo-dba",
         "type": "instructions"
       },
+      "moodle": {
+        "path": "assets/instructions/moodle.instructions.md",
+        "description": "Instructions for GitHub Copilot to generate code in a Moodle project context.",
+        "title": "moodle",
+        "type": "instructions"
+      },
       "ms-sql-dba": {
         "path": "assets/instructions/ms-sql-dba.instructions.md",
         "description": "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
         "title": "ms-sql-dba",
+        "type": "instructions"
+      },
+      "mvvm-toolkit": {
+        "path": "assets/instructions/mvvm-toolkit.instructions.md",
+        "description": "CommunityToolkit.Mvvm (MVVM Toolkit) coding conventions for ViewModels, commands, messaging, validation, and DI across WPF, WinUI 3, .NET MAUI, Uno Platform, and Avalonia.",
+        "title": "mvvm-toolkit",
         "type": "instructions"
       },
       "nestjs": {
@@ -1331,6 +2141,12 @@
         "title": "nextjs",
         "type": "instructions"
       },
+      "no-heredoc": {
+        "path": "assets/instructions/no-heredoc.instructions.md",
+        "description": "Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections",
+        "title": "no-heredoc",
+        "type": "instructions"
+      },
       "nodejs-javascript-vitest": {
         "path": "assets/instructions/nodejs-javascript-vitest.instructions.md",
         "description": "Guidelines for writing Node.js and JavaScript code with Vitest testing",
@@ -1341,6 +2157,12 @@
         "path": "assets/instructions/object-calisthenics.instructions.md",
         "description": "Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code",
         "title": "object-calisthenics",
+        "type": "instructions"
+      },
+      "oop-design-patterns": {
+        "path": "assets/instructions/oop-design-patterns.instructions.md",
+        "description": "Best practices for applying Object-Oriented Programming (OOP) design patterns, including Gang of Four (GoF) patterns and SOLID principles, to ensure clean, maintainable, and scalable code.",
+        "title": "oop-design-patterns",
         "type": "instructions"
       },
       "oqtane": {
@@ -1453,7 +2275,7 @@
       },
       "performance-optimization": {
         "path": "assets/instructions/performance-optimization.instructions.md",
-        "description": "The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.",
+        "description": "Comprehensive web performance standards based on Core Web Vitals (LCP, INP, CLS), with 50+ anti-patterns, detection regex, framework-specific fixes for modern web frameworks, and modern API guidance.",
         "title": "performance-optimization",
         "type": "instructions"
       },
@@ -1547,10 +2369,10 @@
         "title": "power-platform-mcp-development",
         "type": "instructions"
       },
-      "powershell-pester-5": {
-        "path": "assets/instructions/powershell-pester-5.instructions.md",
-        "description": "PowerShell Pester testing best practices based on Pester v5 conventions",
-        "title": "powershell-pester-5",
+      "powershell-pester-6": {
+        "path": "assets/instructions/powershell-pester-6.instructions.md",
+        "description": "PowerShell Pester testing best practices based on Pester v6 conventions",
+        "title": "powershell-pester-6",
         "type": "instructions"
       },
       "powershell": {
@@ -1565,16 +2387,22 @@
         "title": "prompt",
         "type": "instructions"
       },
+      "prose-and-domains": {
+        "path": "assets/instructions/prose-and-domains.instructions.md",
+        "description": "Concrete prose, one fact per home, and one owner per decision.",
+        "title": "prose-and-domains",
+        "type": "instructions"
+      },
       "python-mcp-server": {
         "path": "assets/instructions/python-mcp-server.instructions.md",
         "description": "Instructions for building Model Context Protocol (MCP) servers using the Python SDK",
         "title": "python-mcp-server",
         "type": "instructions"
       },
-      "python": {
-        "path": "assets/instructions/python.instructions.md",
-        "description": "Python coding conventions and guidelines",
-        "title": "python",
+      "qa-engineering-best-practices": {
+        "path": "assets/instructions/qa-engineering-best-practices.instructions.md",
+        "description": "Comprehensive QA engineering best practices covering test strategy, test pyramid, naming conventions, assertion patterns, bug reporting, and automation guidelines for modern software projects.",
+        "title": "qa-engineering-best-practices",
         "type": "instructions"
       },
       "quarkus-mcp-server-sse": {
@@ -1593,12 +2421,6 @@
         "path": "assets/instructions/r.instructions.md",
         "description": "R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.",
         "title": "r",
-        "type": "instructions"
-      },
-      "reactjs": {
-        "path": "assets/instructions/reactjs.instructions.md",
-        "description": "ReactJS development standards and best practices",
-        "title": "reactjs",
         "type": "instructions"
       },
       "ruby-mcp-server": {
@@ -1625,6 +2447,12 @@
         "title": "rust",
         "type": "instructions"
       },
+      "scala-spark": {
+        "path": "assets/instructions/scala-spark.instructions.md",
+        "description": "Best practices for building Apache Spark applications in Scala, covering DataFrames, Datasets, SparkSQL, performance tuning, testing, and production deployment patterns.",
+        "title": "scala-spark",
+        "type": "instructions"
+      },
       "scala2": {
         "path": "assets/instructions/scala2.instructions.md",
         "description": "Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.",
@@ -1633,7 +2461,7 @@
       },
       "security-and-owasp": {
         "path": "assets/instructions/security-and-owasp.instructions.md",
-        "description": "Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices.",
+        "description": "Comprehensive secure coding standards based on OWASP Top 10 2025, with 55+ anti-patterns, detection regex, framework-specific fixes for modern web and backend frameworks, and AI/LLM security guidance.",
         "title": "security-and-owasp",
         "type": "instructions"
       },
@@ -1675,7 +2503,7 @@
       },
       "svelte": {
         "path": "assets/instructions/svelte.instructions.md",
-        "description": "Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications",
+        "description": "Svelte 5 and SvelteKit 2 development standards and best practices for component-based user interfaces and full-stack applications",
         "title": "svelte",
         "type": "instructions"
       },
@@ -1683,6 +2511,12 @@
         "path": "assets/instructions/swift-mcp-server.instructions.md",
         "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.",
         "title": "swift-mcp-server",
+        "type": "instructions"
+      },
+      "tailwind-v4-vite": {
+        "path": "assets/instructions/tailwind-v4-vite.instructions.md",
+        "description": "Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite plugin",
+        "title": "tailwind-v4-vite",
         "type": "instructions"
       },
       "taming-copilot": {
@@ -1705,7 +2539,7 @@
       },
       "tasksync": {
         "path": "assets/instructions/tasksync.instructions.md",
-        "description": "TaskSync V4 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
+        "description": "TaskSync V5 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
         "title": "tasksync",
         "type": "instructions"
       },
@@ -1725,12 +2559,6 @@
         "path": "assets/instructions/terraform.instructions.md",
         "description": "Terraform Conventions and Guidelines",
         "title": "terraform",
-        "type": "instructions"
-      },
-      "typescript-5-es2022": {
-        "path": "assets/instructions/typescript-5-es2022.instructions.md",
-        "description": "Guidelines for TypeScript Development targeting TypeScript 5.x and ES2022 output",
-        "title": "typescript-5-es2022",
         "type": "instructions"
       },
       "typescript-mcp-server": {
@@ -1757,16 +2585,28 @@
         "title": "update-docs-on-code-change",
         "type": "instructions"
       },
+      "use-cliche-data-in-docs": {
+        "path": "assets/instructions/use-cliche-data-in-docs.instructions.md",
+        "description": "Ensure documentation and examples use only generic, cliche placeholder data — never real or sensitive data sourced from local scripts, configuration, task files, or prompt context.",
+        "title": "use-cliche-data-in-docs",
+        "type": "instructions"
+      },
       "vsixtoolkit": {
         "path": "assets/instructions/vsixtoolkit.instructions.md",
         "description": "Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit",
         "title": "vsixtoolkit",
         "type": "instructions"
       },
-      "vuejs3": {
-        "path": "assets/instructions/vuejs3.instructions.md",
-        "description": "VueJS 3 development standards and best practices with Composition API and TypeScript",
-        "title": "vuejs3",
+      "vue": {
+        "path": "assets/instructions/vue.instructions.md",
+        "description": "Comprehensive Vue 3 development standards and best practices: Composition API, `<script setup>`, the full reactivity system, compiler macros (defineModel/defineSlots/defineOptions), built-in components (Teleport/Suspense/Transition/KeepAlive), provide/inject, composables, Pinia, Vue Router, TypeScript, testing, performance, SSR, and security.",
+        "title": "vue",
+        "type": "instructions"
+      },
+      "winui3": {
+        "path": "assets/instructions/winui3.instructions.md",
+        "description": "WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.",
+        "title": "winui3",
         "type": "instructions"
       },
       "wordpress": {
@@ -1787,6 +2627,18 @@
         "path": "assets/prompts/ai-prompt-engineering-safety-review.prompt.md",
         "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.",
         "title": "ai-prompt-engineering-safety-review",
+        "type": "prompts"
+      },
+      "apple-appstore-reviewer": {
+        "path": "assets/prompts/apple-appstore-reviewer.prompt.md",
+        "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.",
+        "title": "apple-appstore-reviewer",
+        "type": "prompts"
+      },
+      "arch-linux-triage": {
+        "path": "assets/prompts/arch-linux-triage.prompt.md",
+        "description": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.",
+        "title": "arch-linux-triage",
         "type": "prompts"
       },
       "architecture-blueprint-generator": {
@@ -1855,6 +2707,12 @@
         "title": "breakdown-test",
         "type": "prompts"
       },
+      "centos-linux-triage": {
+        "path": "assets/prompts/centos-linux-triage.prompt.md",
+        "description": "Triage and resolve CentOS issues using RHEL-compatible tooling, SELinux-aware practices, and firewalld.",
+        "title": "centos-linux-triage",
+        "type": "prompts"
+      },
       "code-exemplars-blueprint-generator": {
         "path": "assets/prompts/code-exemplars-blueprint-generator.prompt.md",
         "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams.",
@@ -1877,6 +2735,12 @@
         "path": "assets/prompts/containerize-aspnetcore.prompt.md",
         "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
         "title": "containerize-aspnetcore",
+        "type": "prompts"
+      },
+      "context-map": {
+        "path": "assets/prompts/context-map.prompt.md",
+        "description": "Generate a map of all files relevant to a task before making changes",
+        "title": "context-map",
         "type": "prompts"
       },
       "conventional-commit": {
@@ -2019,7 +2883,7 @@
       },
       "csharp-mstest": {
         "path": "assets/prompts/csharp-mstest.prompt.md",
-        "description": "Get best practices for MSTest unit testing, including data-driven tests",
+        "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests",
         "title": "csharp-mstest",
         "type": "prompts"
       },
@@ -2065,6 +2929,12 @@
         "title": "dataverse-python-usecase-builder",
         "type": "prompts"
       },
+      "debian-linux-triage": {
+        "path": "assets/prompts/debian-linux-triage.prompt.md",
+        "description": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.",
+        "title": "debian-linux-triage",
+        "type": "prompts"
+      },
       "declarative-agents": {
         "path": "assets/prompts/declarative-agents.prompt.md",
         "description": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration",
@@ -2104,13 +2974,19 @@
       "editorconfig": {
         "path": "assets/prompts/editorconfig.prompt.md",
         "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.",
-        "title": "EditorConfig Expert",
+        "title": "editorconfig",
         "type": "prompts"
       },
       "ef-core": {
         "path": "assets/prompts/ef-core.prompt.md",
         "description": "Get best practices for Entity Framework Core",
         "title": "ef-core",
+        "type": "prompts"
+      },
+      "fedora-linux-triage": {
+        "path": "assets/prompts/fedora-linux-triage.prompt.md",
+        "description": "Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance.",
+        "title": "fedora-linux-triage",
         "type": "prompts"
       },
       "finalize-agent-prompt": {
@@ -2188,13 +3064,13 @@
       "java-refactoring-extract-method": {
         "path": "assets/prompts/java-refactoring-extract-method.prompt.md",
         "description": "Refactoring using Extract Methods in Java Language",
-        "title": "Refactoring Java Methods with Extract Method",
+        "title": "java-refactoring-extract-method",
         "type": "prompts"
       },
       "java-refactoring-remove-parameter": {
         "path": "assets/prompts/java-refactoring-remove-parameter.prompt.md",
         "description": "Refactoring using Remove Parameter in Java Language",
-        "title": "Refactoring Java Methods with Remove Parameter",
+        "title": "java-refactoring-remove-parameter",
         "type": "prompts"
       },
       "java-springboot": {
@@ -2285,6 +3161,12 @@
         "path": "assets/prompts/next-intl-add-language.prompt.md",
         "description": "Add new language to a Next.js + next-intl application",
         "title": "next-intl-add-language",
+        "type": "prompts"
+      },
+      "openapi-to-application-code": {
+        "path": "assets/prompts/openapi-to-application-code.prompt.md",
+        "description": "Generate a complete, production-ready application from an OpenAPI specification",
+        "title": "openapi-to-application-code",
         "type": "prompts"
       },
       "php-mcp-server-generator": {
@@ -2389,10 +3271,22 @@
         "title": "readme-blueprint-generator",
         "type": "prompts"
       },
+      "refactor-method-complexity-reduce": {
+        "path": "assets/prompts/refactor-method-complexity-reduce.prompt.md",
+        "description": "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods.",
+        "title": "refactor-method-complexity-reduce",
+        "type": "prompts"
+      },
+      "refactor-plan": {
+        "path": "assets/prompts/refactor-plan.prompt.md",
+        "description": "Plan a multi-file refactor with proper sequencing and rollback steps",
+        "title": "refactor-plan",
+        "type": "prompts"
+      },
       "remember-interactive-programming": {
         "path": "assets/prompts/remember-interactive-programming.prompt.md",
         "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
-        "title": "Interactive Programming Nudge",
+        "title": "remember-interactive-programming",
         "type": "prompts"
       },
       "remember": {
@@ -2467,28 +3361,28 @@
         "title": "suggest-awesome-github-copilot-agents",
         "type": "prompts"
       },
-      "suggest-awesome-github-copilot-chatmodes": {
-        "path": "assets/prompts/suggest-awesome-github-copilot-chatmodes.prompt.md",
-        "description": "Suggest relevant GitHub Copilot Custom Chat Modes files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom chat modes in this repository.",
-        "title": "suggest-awesome-github-copilot-chatmodes",
-        "type": "prompts"
-      },
       "suggest-awesome-github-copilot-collections": {
         "path": "assets/prompts/suggest-awesome-github-copilot-collections.prompt.md",
-        "description": "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets.",
+        "description": "Suggest relevant GitHub Copilot collections from the awesome-copilot repository based on current repository context and chat history, providing automatic download and installation of collection assets, and identifying outdated collection assets that need updates.",
         "title": "suggest-awesome-github-copilot-collections",
         "type": "prompts"
       },
       "suggest-awesome-github-copilot-instructions": {
         "path": "assets/prompts/suggest-awesome-github-copilot-instructions.prompt.md",
-        "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository.",
+        "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.",
         "title": "suggest-awesome-github-copilot-instructions",
         "type": "prompts"
       },
       "suggest-awesome-github-copilot-prompts": {
         "path": "assets/prompts/suggest-awesome-github-copilot-prompts.prompt.md",
-        "description": "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
+        "description": "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository, and identifying outdated prompts that need updates.",
         "title": "suggest-awesome-github-copilot-prompts",
+        "type": "prompts"
+      },
+      "suggest-awesome-github-copilot-skills": {
+        "path": "assets/prompts/suggest-awesome-github-copilot-skills.prompt.md",
+        "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.",
+        "title": "suggest-awesome-github-copilot-skills",
         "type": "prompts"
       },
       "swift-mcp-server-generator": {
@@ -2567,6 +3461,12 @@
         "path": "assets/prompts/update-specification.prompt.md",
         "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
         "title": "update-specification",
+        "type": "prompts"
+      },
+      "what-context-needed": {
+        "path": "assets/prompts/what-context-needed.prompt.md",
+        "description": "Ask Copilot what files it needs to see before answering a question",
+        "title": "what-context-needed",
         "type": "prompts"
       },
       "write-coding-standards-from-file": {
@@ -2699,15 +3599,15 @@
       },
       "awesome-copilot": {
         "path": "assets/collections/awesome-copilot.collection.yml",
-        "description": "Meta prompts that help you discover and generate curated GitHub Copilot chat modes, collections, instructions, prompts, and agents.",
+        "description": "Meta prompts that help you discover and generate curated GitHub Copilot agents, collections, instructions, prompts, and skills.",
         "title": "Awesome Copilot",
         "type": "collections",
         "items": [
-          "prompts:suggest-awesome-github-copilot-chatmodes",
           "prompts:suggest-awesome-github-copilot-collections",
           "prompts:suggest-awesome-github-copilot-instructions",
           "prompts:suggest-awesome-github-copilot-prompts",
           "prompts:suggest-awesome-github-copilot-agents",
+          "prompts:suggest-awesome-github-copilot-skills",
           "agents:meta-agentic-project-scaffold"
         ]
       },
@@ -2890,6 +3790,17 @@
           "prompts:az-cost-optimize"
         ]
       },
+      "cast-imaging": {
+        "path": "assets/collections/cast-imaging.collection.yml",
+        "description": "A comprehensive collection of specialized agents for software analysis, impact assessment, structural quality advisories, and architectural review using CAST Imaging.",
+        "title": "CAST Imaging Agents",
+        "type": "collections",
+        "items": [
+          "agents:cast-imaging-software-discovery",
+          "agents:cast-imaging-impact-analysis",
+          "agents:cast-imaging-structural-quality-advisor"
+        ]
+      },
       "claude-skills-starter": {
         "path": "assets/collections/claude-skills-starter.json",
         "description": "Essential Claude Skills for software development, planning, and automation workflows.",
@@ -2908,6 +3819,60 @@
           "instructions:clojure",
           "agents:clojure-interactive-programming",
           "prompts:remember-interactive-programming"
+        ]
+      },
+      "coding-standards": {
+        "path": "assets/collections/coding-standards.collection.yml",
+        "description": "Agents and instructions for strategy interviews, git init when a repo is missing, Cursor rules, code review reports, and Clerk auth standards.",
+        "title": "Coding Standards",
+        "type": "collections",
+        "items": [
+          "instructions:coding-standards",
+          "agents:ce-strategy",
+          "agents:speckit-git-initialize",
+          "agents:create-rule",
+          "agents:ce-code-review",
+          "agents:clerk-auth-standards"
+        ]
+      },
+      "compound-delivery": {
+        "path": "assets/collections/compound-delivery.collection.yml",
+        "description": "Agents that turn a solved problem, a spec, or a multi-part job into separate work, agent-ready CLIs, and Clerk setup.",
+        "title": "Compound Delivery",
+        "type": "collections",
+        "items": [
+          "agents:ce-compound",
+          "agents:orchestrate-problem-prs",
+          "agents:spec-to-implementation",
+          "agents:orchestrate",
+          "agents:cli-for-agents",
+          "agents:clerk-setup"
+        ]
+      },
+      "context-engineering": {
+        "path": "assets/collections/context-engineering.collection.yml",
+        "description": "Tools and techniques for maximizing GitHub Copilot effectiveness through better context management. Includes guidelines for structuring code, an agent for planning multi-file changes, and prompts for context-aware development.",
+        "title": "Context Engineering",
+        "type": "collections",
+        "items": [
+          "instructions:context-engineering",
+          "agents:context-architect",
+          "prompts:context-map",
+          "prompts:what-context-needed",
+          "prompts:refactor-plan"
+        ]
+      },
+      "copilot-sdk": {
+        "path": "assets/collections/copilot-sdk.collection.yml",
+        "description": "Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications.",
+        "title": "Copilot SDK",
+        "type": "collections",
+        "items": [
+          "instructions:copilot-sdk-csharp",
+          "instructions:copilot-sdk-go",
+          "instructions:copilot-sdk-nodejs",
+          "instructions:copilot-sdk-python",
+          "skills:SKILL"
         ]
       },
       "cpp-development": {
@@ -3197,6 +4162,22 @@
           "prompts:playwright-generate-test"
         ]
       },
+      "gem-team": {
+        "path": "assets/collections/gem-team.collection.yml",
+        "description": "A modular multi-agent team for complex project execution with DAG-based planning, parallel execution, TDD verification, and automated testing.",
+        "title": "Gem Team Multi-Agent Orchestration",
+        "type": "collections",
+        "items": [
+          "agents:gem-orchestrator",
+          "agents:gem-researcher",
+          "agents:gem-planner",
+          "agents:gem-implementer",
+          "agents:gem-chrome-tester",
+          "agents:gem-devops",
+          "agents:gem-reviewer",
+          "agents:gem-documentation-writer"
+        ]
+      },
       "general-productivity": {
         "path": "assets/collections/general-productivity.json",
         "description": "General coding utilities, debugging, refactoring, and git resources.",
@@ -3258,6 +4239,22 @@
           "instructions:go-mcp-server",
           "prompts:go-mcp-server-generator",
           "agents:go-mcp-expert"
+        ]
+      },
+      "harness-ops": {
+        "path": "assets/collections/harness-ops.collection.yml",
+        "description": "Agents and instructions for PenguinHarness changes, stacked PR landing, simplifications, prose, note archival, terse replies, and control-repo dispatch.",
+        "title": "Harness Ops",
+        "type": "collections",
+        "items": [
+          "agents:penguin-harness-dev",
+          "agents:dsh-merging-stacked-prs",
+          "agents:dsh-find-simplifications",
+          "agents:dsh-prose-standard",
+          "agents:dsh-archive-agent-notes",
+          "agents:caveman-mode",
+          "instructions:central-repo-ops",
+          "instructions:prose-and-domains"
         ]
       },
       "java-development": {
@@ -3558,6 +4555,70 @@
           "prompts:folder-structure-blueprint-generator",
           "prompts:project-workflow-analysis-blueprint-generator",
           "prompts:technology-stack-blueprint-generator"
+        ]
+      },
+      "openapi-to-application-csharp-dotnet": {
+        "path": "assets/collections/openapi-to-application-csharp-dotnet.collection.yml",
+        "description": "Generate production-ready .NET applications from OpenAPI specifications. Includes ASP.NET Core project scaffolding, controller generation, entity framework integration, and C# best practices.",
+        "title": "OpenAPI to Application - C# .NET",
+        "type": "collections",
+        "items": [
+          "agents:openapi-to-application",
+          "instructions:csharp",
+          "prompts:openapi-to-application-code"
+        ]
+      },
+      "openapi-to-application-go": {
+        "path": "assets/collections/openapi-to-application-go.collection.yml",
+        "description": "Generate production-ready Go applications from OpenAPI specifications. Includes project scaffolding, handler generation, middleware setup, and Go best practices for REST APIs.",
+        "title": "OpenAPI to Application - Go",
+        "type": "collections",
+        "items": [
+          "agents:openapi-to-application",
+          "instructions:go",
+          "prompts:openapi-to-application-code"
+        ]
+      },
+      "openapi-to-application-java-spring-boot": {
+        "path": "assets/collections/openapi-to-application-java-spring-boot.collection.yml",
+        "description": "Generate production-ready Spring Boot applications from OpenAPI specifications. Includes project scaffolding, REST controller generation, service layer organization, and Spring Boot best practices.",
+        "title": "OpenAPI to Application - Java Spring Boot",
+        "type": "collections",
+        "items": [
+          "agents:openapi-to-application",
+          "instructions:springboot",
+          "prompts:openapi-to-application-code"
+        ]
+      },
+      "openapi-to-application-nodejs-nestjs": {
+        "path": "assets/collections/openapi-to-application-nodejs-nestjs.collection.yml",
+        "description": "Generate production-ready NestJS applications from OpenAPI specifications. Includes project scaffolding, controller and service generation, TypeScript best practices, and enterprise patterns.",
+        "title": "OpenAPI to Application - Node.js NestJS",
+        "type": "collections",
+        "items": [
+          "agents:openapi-to-application",
+          "instructions:nestjs",
+          "prompts:openapi-to-application-code"
+        ]
+      },
+      "openapi-to-application-python-fastapi": {
+        "path": "assets/collections/openapi-to-application-python-fastapi.collection.yml",
+        "description": "Generate production-ready FastAPI applications from OpenAPI specifications. Includes project scaffolding, route generation, dependency injection, and Python best practices for async APIs.",
+        "title": "OpenAPI to Application - Python FastAPI",
+        "type": "collections",
+        "items": [
+          "agents:openapi-to-application",
+          "instructions:python",
+          "prompts:openapi-to-application-code"
+        ]
+      },
+      "ospo-sponsorship": {
+        "path": "assets/collections/ospo-sponsorship.collection.yml",
+        "description": "Tools and resources for Open Source Program Offices (OSPOs) to identify, evaluate, and manage sponsorship of open source dependencies through GitHub Sponsors, Open Collective, and other funding platforms.",
+        "title": "Open Source Sponsorship",
+        "type": "collections",
+        "items": [
+          "skills:SKILL"
         ]
       },
       "partners": {
@@ -4145,6 +5206,17 @@
           "agents:ruby-mcp-expert"
         ]
       },
+      "rug-agentic-workflow": {
+        "path": "assets/collections/rug-agentic-workflow.collection.yml",
+        "description": "Three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and QA subagents.",
+        "title": "RUG Agentic Workflow",
+        "type": "collections",
+        "items": [
+          "agents:rug-orchestrator",
+          "agents:swe-subagent",
+          "agents:qa-subagent"
+        ]
+      },
       "rust-development": {
         "path": "assets/collections/rust-development.json",
         "description": "Rust programming language resources and crates.",
@@ -4564,6 +5636,19 @@
       }
     },
     "skills": {
+      "academy-guide": {
+        "path": "assets/skills/academy-guide",
+        "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.\n",
+        "title": "academy-guide",
+        "type": "skills",
+        "files": [
+          "LICENSE.txt",
+          "SKILL.md"
+        ],
+        "metadata": {
+          "license": "Complete terms in LICENSE.txt"
+        }
+      },
       "algorithmic-art": {
         "path": "assets/skills/algorithmic-art",
         "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
@@ -4704,6 +5789,120 @@
           "license": "Complete terms in LICENSE.txt"
         }
       },
+      "claude-api": {
+        "path": "assets/skills/claude-api",
+        "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+        "title": "claude-api",
+        "type": "skills",
+        "files": [
+          "LICENSE.txt",
+          "SKILL.md",
+          "csharp/claude-api/README.md",
+          "csharp/claude-api/batches.md",
+          "csharp/claude-api/files-api.md",
+          "csharp/claude-api/streaming.md",
+          "csharp/claude-api/tool-use.md",
+          "csharp/claude-api.md",
+          "curl/examples.md",
+          "curl/managed-agents.md",
+          "go/claude-api/README.md",
+          "go/claude-api/files-api.md",
+          "go/claude-api/streaming.md",
+          "go/claude-api/tool-use.md",
+          "go/claude-api.md",
+          "go/managed-agents/README.md",
+          "java/claude-api/README.md",
+          "java/claude-api/files-api.md",
+          "java/claude-api/streaming.md",
+          "java/claude-api/tool-use.md",
+          "java/claude-api.md",
+          "java/managed-agents/README.md",
+          "php/claude-api/README.md",
+          "php/claude-api/batches.md",
+          "php/claude-api/files-api.md",
+          "php/claude-api/streaming.md",
+          "php/claude-api/tool-use.md",
+          "php/claude-api.md",
+          "php/managed-agents/README.md",
+          "python/agent-sdk/README.md",
+          "python/agent-sdk/patterns.md",
+          "python/claude-api/README.md",
+          "python/claude-api/batches.md",
+          "python/claude-api/files-api.md",
+          "python/claude-api/sdk-upgrade.md",
+          "python/claude-api/streaming.md",
+          "python/claude-api/tool-use.md",
+          "python/managed-agents/README.md",
+          "ruby/claude-api/README.md",
+          "ruby/claude-api/streaming.md",
+          "ruby/claude-api/tool-use.md",
+          "ruby/claude-api.md",
+          "ruby/managed-agents/README.md",
+          "shared/admin-api.md",
+          "shared/agent-design.md",
+          "shared/anthropic-cli.md",
+          "shared/claude-platform-on-aws.md",
+          "shared/cost-optimization.md",
+          "shared/error-codes.md",
+          "shared/evals/build-eval.md",
+          "shared/evals/cost-hillclimb.md",
+          "shared/evals/eval-audit.md",
+          "shared/evals/eval-hillclimb.md",
+          "shared/evals/report/SCHEMA.md",
+          "shared/evals/report/build-report-lite.mjs",
+          "shared/evals/report/runner-scaffold.mjs",
+          "shared/live-sources.md",
+          "shared/managed-agents-api-reference.md",
+          "shared/managed-agents-client-patterns.md",
+          "shared/managed-agents-core.md",
+          "shared/managed-agents-environments.md",
+          "shared/managed-agents-events.md",
+          "shared/managed-agents-memory.md",
+          "shared/managed-agents-multiagent.md",
+          "shared/managed-agents-onboarding.md",
+          "shared/managed-agents-outcomes.md",
+          "shared/managed-agents-overview.md",
+          "shared/managed-agents-scheduled-deployments.md",
+          "shared/managed-agents-self-hosted-sandboxes.md",
+          "shared/managed-agents-tools.md",
+          "shared/managed-agents-webhooks.md",
+          "shared/model-migration.md",
+          "shared/models.md",
+          "shared/platform-availability.md",
+          "shared/preserved-thinking-migration/causes.md",
+          "shared/preserved-thinking-migration/drop_block_probe.py",
+          "shared/preserved-thinking-migration/prefix_diff.py",
+          "shared/preserved-thinking-migration.md",
+          "shared/prompt-audit.md",
+          "shared/prompt-caching.md",
+          "shared/token-counting.md",
+          "shared/tool-use-concepts.md",
+          "typescript/agent-sdk/README.md",
+          "typescript/agent-sdk/patterns.md",
+          "typescript/claude-api/README.md",
+          "typescript/claude-api/batches.md",
+          "typescript/claude-api/files-api.md",
+          "typescript/claude-api/streaming.md",
+          "typescript/claude-api/tool-use.md",
+          "typescript/managed-agents/README.md"
+        ],
+        "metadata": {
+          "license": "Complete terms in LICENSE.txt"
+        }
+      },
+      "discernment-nudge": {
+        "path": "assets/skills/discernment-nudge",
+        "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.\n",
+        "title": "discernment-nudge",
+        "type": "skills",
+        "files": [
+          "LICENSE.txt",
+          "SKILL.md"
+        ],
+        "metadata": {
+          "license": "Complete terms in LICENSE.txt"
+        }
+      },
       "doc-coauthoring": {
         "path": "assets/skills/doc-coauthoring",
         "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
@@ -4716,7 +5915,7 @@
       },
       "docx": {
         "path": "assets/skills/docx",
-        "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+        "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
         "title": "docx",
         "type": "skills",
         "files": [
@@ -4772,7 +5971,64 @@
           "ooxml/scripts/validation/redlining.py",
           "ooxml.md",
           "scripts/__init__.py",
+          "scripts/accept_changes.py",
+          "scripts/comment.py",
           "scripts/document.py",
+          "scripts/merge_runs.py",
+          "scripts/office/helpers/__init__.py",
+          "scripts/office/helpers/merge_runs.py",
+          "scripts/office/helpers/pptx_chart.py",
+          "scripts/office/helpers/pptx_slide.py",
+          "scripts/office/helpers/pptx_theme.py",
+          "scripts/office/helpers/simplify_redlines.py",
+          "scripts/office/pack.py",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "scripts/office/schemas/mce/mc.xsd",
+          "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "scripts/office/soffice.py",
+          "scripts/office/unpack.py",
+          "scripts/office/validate.py",
+          "scripts/office/validators/__init__.py",
+          "scripts/office/validators/base.py",
+          "scripts/office/validators/docx.py",
+          "scripts/office/validators/pptx.py",
+          "scripts/office/validators/redlining.py",
           "scripts/templates/comments.xml",
           "scripts/templates/commentsExtended.xml",
           "scripts/templates/commentsExtensible.xml",
@@ -4801,7 +6057,7 @@
       },
       "frontend-design": {
         "path": "assets/skills/frontend-design",
-        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
         "title": "frontend-design",
         "type": "skills",
         "files": [
@@ -4852,7 +6108,7 @@
       },
       "pdf": {
         "path": "assets/skills/pdf",
-        "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+        "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
         "title": "pdf",
         "type": "skills",
         "files": [
@@ -4866,6 +6122,7 @@
           "scripts/convert_pdf_to_images.py",
           "scripts/create_validation_image.py",
           "scripts/extract_form_field_info.py",
+          "scripts/extract_form_structure.py",
           "scripts/fill_fillable_fields.py",
           "scripts/fill_pdf_form_with_annotations.py"
         ],
@@ -4875,12 +6132,13 @@
       },
       "pptx": {
         "path": "assets/skills/pptx",
-        "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+        "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
         "title": "pptx",
         "type": "skills",
         "files": [
           "LICENSE.txt",
           "SKILL.md",
+          "editing.md",
           "html2pptx.md",
           "ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
           "ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
@@ -4930,8 +6188,66 @@
           "ooxml/scripts/validation/pptx.py",
           "ooxml/scripts/validation/redlining.py",
           "ooxml.md",
+          "pptxgenjs.md",
+          "scripts/__init__.py",
+          "scripts/add_slide.py",
+          "scripts/clean.py",
           "scripts/html2pptx.js",
           "scripts/inventory.py",
+          "scripts/office/helpers/__init__.py",
+          "scripts/office/helpers/merge_runs.py",
+          "scripts/office/helpers/pptx_chart.py",
+          "scripts/office/helpers/pptx_slide.py",
+          "scripts/office/helpers/pptx_theme.py",
+          "scripts/office/helpers/simplify_redlines.py",
+          "scripts/office/pack.py",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "scripts/office/schemas/mce/mc.xsd",
+          "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "scripts/office/soffice.py",
+          "scripts/office/unpack.py",
+          "scripts/office/validate.py",
+          "scripts/office/validators/__init__.py",
+          "scripts/office/validators/base.py",
+          "scripts/office/validators/docx.py",
+          "scripts/office/validators/pptx.py",
+          "scripts/office/validators/redlining.py",
           "scripts/rearrange.py",
           "scripts/replace.py",
           "scripts/thumbnail.py"
@@ -4942,21 +6258,33 @@
       },
       "skill-creator": {
         "path": "assets/skills/skill-creator",
-        "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
         "title": "skill-creator",
         "type": "skills",
         "files": [
           "LICENSE.txt",
           "SKILL.md",
+          "agents/analyzer.md",
+          "agents/comparator.md",
+          "agents/grader.md",
+          "assets/eval_review.html",
+          "eval-viewer/generate_review.py",
+          "eval-viewer/viewer.html",
           "references/output-patterns.md",
+          "references/schemas.md",
           "references/workflows.md",
+          "scripts/__init__.py",
+          "scripts/aggregate_benchmark.py",
+          "scripts/generate_report.py",
+          "scripts/improve_description.py",
           "scripts/init_skill.py",
           "scripts/package_skill.py",
-          "scripts/quick_validate.py"
+          "scripts/quick_validate.py",
+          "scripts/run_eval.py",
+          "scripts/run_loop.py",
+          "scripts/utils.py"
         ],
-        "metadata": {
-          "license": "Complete terms in LICENSE.txt"
-        }
+        "metadata": {}
       },
       "slack-gif-creator": {
         "path": "assets/skills/slack-gif-creator",
@@ -5035,17 +6363,218 @@
       },
       "xlsx": {
         "path": "assets/skills/xlsx",
-        "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+        "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
         "title": "xlsx",
         "type": "skills",
         "files": [
           "LICENSE.txt",
           "SKILL.md",
-          "recalc.py"
+          "recalc.py",
+          "scripts/office/helpers/__init__.py",
+          "scripts/office/helpers/merge_runs.py",
+          "scripts/office/helpers/pptx_chart.py",
+          "scripts/office/helpers/pptx_slide.py",
+          "scripts/office/helpers/pptx_theme.py",
+          "scripts/office/helpers/simplify_redlines.py",
+          "scripts/office/pack.py",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+          "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+          "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+          "scripts/office/schemas/mce/mc.xsd",
+          "scripts/office/schemas/microsoft/wml-2010.xsd",
+          "scripts/office/schemas/microsoft/wml-2012.xsd",
+          "scripts/office/schemas/microsoft/wml-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+          "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+          "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+          "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+          "scripts/office/soffice.py",
+          "scripts/office/unpack.py",
+          "scripts/office/validate.py",
+          "scripts/office/validators/__init__.py",
+          "scripts/office/validators/base.py",
+          "scripts/office/validators/docx.py",
+          "scripts/office/validators/pptx.py",
+          "scripts/office/validators/redlining.py",
+          "scripts/recalc.py"
         ],
         "metadata": {
           "license": "Proprietary. LICENSE.txt has complete terms"
         }
+      }
+    },
+    "hooks": {
+      "governance-audit": {
+        "path": "assets/hooks/governance-audit",
+        "description": "Scans Copilot agent prompts for threat signals and logs governance events",
+        "title": "Governance Audit",
+        "type": "hooks",
+        "files": [
+          "README.md",
+          "audit-prompt.sh",
+          "audit-session-end.sh",
+          "audit-session-start.sh",
+          "hooks.json"
+        ],
+        "metadata": {}
+      },
+      "session-auto-commit": {
+        "path": "assets/hooks/session-auto-commit",
+        "description": "Automatically commits and pushes changes when a Copilot coding agent session ends",
+        "title": "Session Auto-Commit",
+        "type": "hooks",
+        "files": [
+          "README.md",
+          "auto-commit.sh",
+          "hooks.json"
+        ],
+        "metadata": {}
+      },
+      "session-logger": {
+        "path": "assets/hooks/session-logger",
+        "description": "Logs all Copilot coding agent session activity for audit and analysis",
+        "title": "Session Logger",
+        "type": "hooks",
+        "files": [
+          "README.md",
+          "hooks.json",
+          "log-prompt.sh",
+          "log-session-end.sh",
+          "log-session-start.sh"
+        ],
+        "metadata": {}
+      }
+    },
+    "plugins": {
+      "awesome-copilot": {
+        "path": "assets/plugins/awesome-copilot",
+        "description": "",
+        "title": "awesome-copilot",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/meta-agentic-project-scaffold.md",
+          "skills/suggest-awesome-github-copilot-agents/SKILL.md",
+          "skills/suggest-awesome-github-copilot-instructions/SKILL.md",
+          "skills/suggest-awesome-github-copilot-prompts/SKILL.md",
+          "skills/suggest-awesome-github-copilot-skills/SKILL.md"
+        ],
+        "metadata": {}
+      },
+      "azure-cloud-development": {
+        "path": "assets/plugins/azure-cloud-development",
+        "description": "",
+        "title": "azure-cloud-development",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/azure-logic-apps-expert.md",
+          "agents/azure-principal-architect.md",
+          "agents/azure-saas-architect.md",
+          "agents/azure-verified-modules-bicep.md",
+          "agents/azure-verified-modules-terraform.md",
+          "agents/terraform-azure-implement.md",
+          "agents/terraform-azure-planning.md",
+          "skills/az-cost-optimize/SKILL.md",
+          "skills/azure-resource-health-diagnose/SKILL.md"
+        ],
+        "metadata": {}
+      },
+      "cast-imaging": {
+        "path": "assets/plugins/cast-imaging",
+        "description": "",
+        "title": "cast-imaging",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/cast-imaging-impact-analysis.md",
+          "agents/cast-imaging-software-discovery.md",
+          "agents/cast-imaging-structural-quality-advisor.md"
+        ],
+        "metadata": {}
+      },
+      "clojure-interactive-programming": {
+        "path": "assets/plugins/clojure-interactive-programming",
+        "description": "",
+        "title": "clojure-interactive-programming",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/clojure-interactive-programming.md",
+          "skills/remember-interactive-programming/SKILL.md"
+        ],
+        "metadata": {}
+      },
+      "context-engineering": {
+        "path": "assets/plugins/context-engineering",
+        "description": "",
+        "title": "context-engineering",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/context-architect.md",
+          "skills/context-map/SKILL.md",
+          "skills/refactor-plan/SKILL.md",
+          "skills/what-context-needed/SKILL.md"
+        ],
+        "metadata": {}
+      },
+      "copilot-sdk": {
+        "path": "assets/plugins/copilot-sdk",
+        "description": "",
+        "title": "copilot-sdk",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "skills/copilot-sdk/SKILL.md"
+        ],
+        "metadata": {}
+      },
+      "csharp-dotnet-development": {
+        "path": "assets/plugins/csharp-dotnet-development",
+        "description": "",
+        "title": "csharp-dotnet-development",
+        "type": "plugins",
+        "files": [
+          ".github/plugin/plugin.json",
+          "README.md",
+          "agents/expert-dotnet-software-engineer.md"
+        ],
+        "metadata": {}
       }
     }
   }
